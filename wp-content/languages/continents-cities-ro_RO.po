@@ -1,15 +1,15 @@
-# Translation of WordPress - 6.8.x - Development - Continents & Cities in Romanian
-# This file is distributed under the same license as the WordPress - 6.8.x - Development - Continents & Cities package.
+# Translation of WordPress - 6.6.x - Development - Continents & Cities in Romanian
+# This file is distributed under the same license as the WordPress - 6.6.x - Development - Continents & Cities package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-31 10:58:03+0000\n"
+"PO-Revision-Date: 2022-10-12 08:33:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: ro\n"
-"Project-Id-Version: WordPress - 6.8.x - Development - Continents & Cities\n"
+"Project-Id-Version: WordPress - 6.6.x - Development - Continents & Cities\n"
 
 #: wp-admin/includes/continents-cities.php:523
 msgid "Kanton"
@@ -757,7 +757,7 @@ msgstr "GMT"
 
 #: wp-admin/includes/continents-cities.php:390
 msgid "Etc"
-msgstr "etc."
+msgstr "Etc"
 
 #: wp-admin/includes/continents-cities.php:388
 msgid "Yancowinna"
@@ -1737,7 +1737,7 @@ msgstr "Danmarkshavn"
 
 #: wp-admin/includes/continents-cities.php:113
 msgid "Curacao"
-msgstr "Curaçao"
+msgstr "Curacao"
 
 #: wp-admin/includes/continents-cities.php:112
 msgid "Cuiaba"

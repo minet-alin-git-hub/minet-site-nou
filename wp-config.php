@@ -79,20 +79,20 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+
+// Enable debugging but hide deprecated notices
+define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_LOG', true);
+
+// Suppress deprecated warnings (PHP 8+)
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-if (!defined('WP_DEBUG')) {
-    define('WP_DEBUG', true);          // Keep debug mode on
-}
-if (!defined('WP_DEBUG_DISPLAY')) {
-    define('WP_DEBUG_DISPLAY', false); // Hide notices on screen
-}
-if (!defined('WP_DEBUG_LOG')) {
-    define('WP_DEBUG_LOG', true);      // Log all errors to wp-content/debug.log
-}
-
+define('WP_HOME','http://192.168.11.39/minet-site-nou');
+define('WP_SITEURL','http://192.168.11.39/minet-site-nou');
 
 /* That's all, stop editing! Happy publishing. */
 

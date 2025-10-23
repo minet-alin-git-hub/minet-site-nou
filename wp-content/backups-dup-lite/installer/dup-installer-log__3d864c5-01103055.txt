@@ -1,6 +1,6 @@
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-0 START @ 07:53:09
+* STEP-0 START @ 11:00:03
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
@@ -19,6 +19,19 @@ OVERWRITE PARAMS
  *** FROM PACKAGE
 PARAM SET KEY[blogname]
 ********************************************************************************
+GET USERS ON CURRENT DATABASE FAILED. Users tables doesn't exist, continue with orverwrite installation but with option keep users disabled
+
+
+GET DUPLICATOR VERSION EXECPTION BUT CONTINUE GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. Options tables doesn't exist.
+
+	FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[430]
+	TRACE:
+#0 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php(120): DUPX_InstallerState->updateOverwriteDataFromDb(Array)
+#1 C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php(391): DUPX_InstallerState->checkState(true, false)
+#2 C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php(92): Duplicator\Installer\Core\Bootstrap::initInstallerFiles()
+#3 C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php(55): Duplicator\Installer\Core\Bootstrap::init()
+#4 {main}
+
 MAINTENANCE MODE DISABLE
 INSTALLER INFO
 
@@ -71,328 +84,183 @@ PLUGIN [SLUG:sitepress-multilingual-cms/sitepress.php          ][ON:true ]  WPML
 PLUGIN [SLUG:wpml-string-translation/plugin.php                ][ON:true ]  WPML String Translation
 
 ********************************************************************************
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.70199]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   3.11098]  MESSAGE:END RENDER PAGE
 LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [sparam_s1] START
+[PHP ERR][E_DEPRECATED] MSG:mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated [CODE:8192|FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.functions.php|LINE:498]
+DB QUERY [ERROR][C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.php:645] MSG: Incorrect database name ''
+	SQL: SHOW TABLES FROM `` WHERE `Tables_in_` IN ('wp_users','wp_usermeta')
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.functions.php[506]
+TRACE[2] CLASS___: DUPX_DB_Functions->tablesExist FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[362]
+TRACE[3] CLASS___: DUPX_InstallerState->getAdminUsersOnOverwriteDatabase FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[118]
+TRACE[4] CLASS___: DUPX_InstallerState->checkState FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.params.php[173]
+TRACE[5] CLASS___: DUPX_Ctrl_Params::setParamsStep1 FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php[183]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php[60]
+
+GET USERS ON CURRENT DATABASE FAILED. Users tables doesn't exist, continue with orverwrite installation but with option keep users disabled
+
+
+GET DUPLICATOR VERSION EXECPTION BUT CONTINUE GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. Options tables doesn't exist.
+
+	FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[430]
+	TRACE:
+#0 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php(120): DUPX_InstallerState->updateOverwriteDataFromDb(Array)
+#1 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.params.php(173): DUPX_InstallerState->checkState(false, false)
+#2 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(183): DUPX_Ctrl_Params::setParamsStep1()
+#3 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('sparam_s1')
+#4 C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#5 {main}
+
 AJAX ACTION [sparam_s1] SUCCESS
 -------------------------
 
 LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 STEP ACTION: "on-validate"
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.65457]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.92644]  MESSAGE:END RENDER PAGE
 LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [validate] START
 START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
-LOG-TIME[DELTA:   0.00033]  MESSAGE:TEST "Archive Check" RESULT: passed
+LOG-TIME[DELTA:   0.00096]  MESSAGE:TEST "Archive Check" RESULT: passed
 
 START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
 
 START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Overwrite Install" RESULT: soft warning
 
 START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Recovery Point" RESULT: skip
 
 START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package is Importable" RESULT: skip
 
 START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "REST API test" RESULT: skip
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "REST API test" RESULT: skip
 
 START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Manual extraction detected" RESULT: good
 
 START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Database Only" RESULT: skip
 
 START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
-LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Package Age" RESULT: soft warning
+LOG-TIME[DELTA:   0.00232]  MESSAGE:TEST "Package Age" RESULT: soft warning
 
 START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
-LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Package Size" RESULT: good
+LOG-TIME[DELTA:   0.00077]  MESSAGE:TEST "Package Size" RESULT: good
 
 START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
 
 START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
-LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+LOG-TIME[DELTA:   0.00097]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
 
 START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
-LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Siteground" RESULT: skip
 
 START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-LOG-TIME[DELTA:   0.19835]  MESSAGE:TEST "Addon Sites" RESULT: good
+LOG-TIME[DELTA:  15.56682]  MESSAGE:TEST "Addon Sites" RESULT: good
 
 START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
-LOG-TIME[DELTA:   0.00135]  MESSAGE:TEST "Wordfence" RESULT: good
+LOG-TIME[DELTA:   0.01058]  MESSAGE:TEST "Wordfence" RESULT: good
 
 START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
-LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+LOG-TIME[DELTA:   0.00090]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
 
 START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
 
 START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Open Base" RESULT: good
 
 START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
-LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
 
 START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "PHP Extensions" RESULT: good
 
 START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
 
 START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
 
 START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "PHP Timeout" RESULT: good
 
 START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
-LOG-TIME[DELTA:   0.01057]  MESSAGE:TEST "Disk Space" RESULT: good
+LOG-TIME[DELTA:   0.02924]  MESSAGE:TEST "Disk Space" RESULT: good
 
 START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
-LOG-TIME[DELTA:   0.10487]  MESSAGE:TEST "Permissions: General" RESULT: passed
+LOG-TIME[DELTA:   4.06005]  MESSAGE:TEST "Permissions: General" RESULT: passed
 
 START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
-LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+LOG-TIME[DELTA:   0.00665]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
 
 START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Host Name" RESULT: passed
 
 START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
-LOG-TIME[DELTA:   0.02066]  MESSAGE:TEST "Host Connection" RESULT: passed
+LOG-TIME[DELTA:   0.00235]  MESSAGE:TEST "Host Connection" RESULT: passed
 
 START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
-LOG-TIME[DELTA:   0.00156]  MESSAGE:TEST "Database Version" RESULT: passed
+LOG-TIME[DELTA:   0.00280]  MESSAGE:TEST "Database Version" RESULT: passed
 
 START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
 LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
 
 START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
-LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Database Engine Support" RESULT: passed
 
 START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
-LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+LOG-TIME[DELTA:   0.00048]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
 
 START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
-
-DATABASE SELECT EXCEPTION:  Unknown database 'minet-site-now_db'
-	FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.database.service.php[118]
-	TRACE:
-#0 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.database.service.php(118): mysqli_select_db(Object(mysqli), 'minet-site-now_...')
-#1 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.database.service.php(311): DUPX_Validation_database_service->databaseExists('')
-#2 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\database-tests\class.validation.test.db.visibility.php(28): DUPX_Validation_database_service->checkDbVisibility('')
-#3 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.abstract.item.php(46): DUPX_Validation_test_db_visibility->runTest()
-#4 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.manager.php(232): DUPX_Validation_abstract_item->test(true)
-#5 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\validation\class.validation.manager.php(205): DUPX_Validation_manager->runTests()
-#6 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(173): DUPX_Validation_manager->getValidateData()
-#7 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('validate')
-#8 C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php(60): DUPX_Ctrl_ajax::controller()
-#9 {main}
-
-LOG-TIME[DELTA:   0.00061]  MESSAGE:TEST "Privileges: User Visibility" RESULT: failed
+LOG-TIME[DELTA:   0.00073]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
 
 START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Manual Table Check" RESULT: skip
 
 START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+LOG-TIME[DELTA:   0.00229]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
 
 START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+LOG-TIME[DELTA:   0.00090]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
 
 START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+LOG-TIME[DELTA:   0.09140]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
 
 START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+LOG-TIME[DELTA:   0.00149]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
 
 START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
 
 START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+LOG-TIME[DELTA:   0.00187]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
 
 START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
-LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
 
 START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
 
 START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+LOG-TIME[DELTA:   0.00233]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
 
 START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Prefix too long" RESULT: skip
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Prefix too long" RESULT: passed
 
 START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
-
-AJAX ACTION [validate] SUCCESS
--------------------------
-
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
-
--------------------------
-AJAX ACTION [sparam_s1] START
-AJAX ACTION [sparam_s1] SUCCESS
--------------------------
-
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
-STEP ACTION: "on-validate"
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.62259]  MESSAGE:END RENDER PAGE
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
-
--------------------------
-AJAX ACTION [validate] START
-START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
-LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Archive Check" RESULT: passed
-
-START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
-LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
-
-START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Overwrite Install" RESULT: skip
-
-START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Recovery Point" RESULT: skip
-
-START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
-
-START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
-
-START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual extraction detected" RESULT: good
-
-START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database Only" RESULT: skip
-
-START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
-LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: soft warning
-
-START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
-LOG-TIME[DELTA:   0.00035]  MESSAGE:TEST "Package Size" RESULT: good
-
-START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
-
-START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
-LOG-TIME[DELTA:   0.00057]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
-
-START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
-LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Siteground" RESULT: skip
-
-START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
---------------------------------------
-PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
---------------------------------------
-LOG-TIME[DELTA:   0.16372]  MESSAGE:TEST "Addon Sites" RESULT: good
-
-START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
-LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Wordfence" RESULT: good
-
-START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
-LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
-
-START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
-LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
-
-START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
-
-START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
-
-START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
-
-START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
-
-START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
-
-START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
-
-START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
-LOG-TIME[DELTA:   0.00748]  MESSAGE:TEST "Disk Space" RESULT: good
-
-START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
-LOG-TIME[DELTA:   0.04886]  MESSAGE:TEST "Permissions: General" RESULT: passed
-
-START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
-LOG-TIME[DELTA:   0.00133]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
-
-START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
-
-START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
-LOG-TIME[DELTA:   0.00120]  MESSAGE:TEST "Host Connection" RESULT: passed
-
-START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
-LOG-TIME[DELTA:   0.00125]  MESSAGE:TEST "Database Version" RESULT: passed
-
-START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
-
-START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
-LOG-TIME[DELTA:   0.00033]  MESSAGE:TEST "Database Engine Support" RESULT: passed
-
-START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
-LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
-
-START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
-LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
-
-START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
-
-START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
-LOG-TIME[DELTA:   0.00078]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
-
-START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
-LOG-TIME[DELTA:   0.00112]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
-
-START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
-LOG-TIME[DELTA:   0.06793]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
-
-START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
-LOG-TIME[DELTA:   0.00070]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
-
-START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
-
-START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
-LOG-TIME[DELTA:   0.00114]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
-
-START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
-LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
-
-START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
-LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
-
-START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
-LOG-TIME[DELTA:   0.00117]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
-
-START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
-LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Prefix too long" RESULT: passed
-
-START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
 
 
 CTRL PARAMS AFTER VALIDATION
@@ -410,6 +278,31 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 
 -------------------------
 AJAX ACTION [sparam_s1] START
+[PHP ERR][E_DEPRECATED] MSG:mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated [CODE:8192|FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.functions.php|LINE:498]
+DB QUERY [ERROR][C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.php:645] MSG: Incorrect database name ''
+	SQL: SHOW TABLES FROM `` WHERE `Tables_in_` IN ('wp_users','wp_usermeta')
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\database\class.db.functions.php[506]
+TRACE[2] CLASS___: DUPX_DB_Functions->tablesExist FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[362]
+TRACE[3] CLASS___: DUPX_InstallerState->getAdminUsersOnOverwriteDatabase FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[118]
+TRACE[4] CLASS___: DUPX_InstallerState->checkState FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.params.php[173]
+TRACE[5] CLASS___: DUPX_Ctrl_Params::setParamsStep1 FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php[183]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php[60]
+
+GET USERS ON CURRENT DATABASE FAILED. Users tables doesn't exist, continue with orverwrite installation but with option keep users disabled
+
+
+GET DUPLICATOR VERSION EXECPTION BUT CONTINUE GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. Options tables doesn't exist.
+
+	FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php[430]
+	TRACE:
+#0 C:\xampp\htdocs\minet-site-nou\dup-installer\classes\class.installer.state.php(120): DUPX_InstallerState->updateOverwriteDataFromDb(Array)
+#1 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.params.php(173): DUPX_InstallerState->checkState(false, false)
+#2 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(183): DUPX_Ctrl_Params::setParamsStep1()
+#3 C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\classes\class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('sparam_s1')
+#4 C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php(60): DUPX_Ctrl_ajax::controller()
+#5 {main}
+
 AJAX ACTION [sparam_s1] SUCCESS
 -------------------------
 
@@ -423,7 +316,7 @@ PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-1 START @ 08:08:06
+* STEP-1 START @ 11:02:48
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -474,6 +367,10 @@ MAINTENANCE MODE ENABLE
 BEFORE EXTRACION ACTIONS
 
 *** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
 
 *** RESET CONFIG FILES IN CURRENT HOSTING >>> END
 MAINTENANCE MODE ENABLE
@@ -481,7 +378,7 @@ MAINTENANCE MODE ENABLE
 *** CREATE FOLDER AND PERMISSION PREPARE
 FOLDER PREPARE DONE
 ARCHIVE OFFSET 0
-CHUNK COMPLETE - RUNTIME: 5.0260 sec. - Files processed: 2,246 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0174 sec. - Files processed: 343 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -490,11 +387,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 2246
+ARCHIVE OFFSET 343
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0415 sec. - Files processed: 2,531 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0256 sec. - Files processed: 2,046 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -503,11 +400,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 2531
+ARCHIVE OFFSET 2046
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0430 sec. - Files processed: 2,850 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0250 sec. - Files processed: 2,413 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -516,11 +413,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 2850
+ARCHIVE OFFSET 2413
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0221 sec. - Files processed: 3,233 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0295 sec. - Files processed: 2,626 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -529,11 +426,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 3233
+ARCHIVE OFFSET 2626
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0378 sec. - Files processed: 3,629 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0303 sec. - Files processed: 2,865 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -542,11 +439,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 3629
+ARCHIVE OFFSET 2865
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0149 sec. - Files processed: 4,050 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0317 sec. - Files processed: 3,208 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -555,11 +452,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 4050
+ARCHIVE OFFSET 3208
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0266 sec. - Files processed: 4,439 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0384 sec. - Files processed: 3,497 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -568,11 +465,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 4439
+ARCHIVE OFFSET 3497
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0312 sec. - Files processed: 4,744 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0358 sec. - Files processed: 3,815 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -581,11 +478,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 4744
+ARCHIVE OFFSET 3815
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0309 sec. - Files processed: 5,259 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0337 sec. - Files processed: 4,126 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -594,11 +491,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 5259
+ARCHIVE OFFSET 4126
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0210 sec. - Files processed: 5,761 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0498 sec. - Files processed: 4,389 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -607,11 +504,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 5761
+ARCHIVE OFFSET 4389
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0136 sec. - Files processed: 6,305 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0244 sec. - Files processed: 4,628 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -620,11 +517,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 6305
+ARCHIVE OFFSET 4628
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0162 sec. - Files processed: 6,553 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0269 sec. - Files processed: 4,940 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -633,11 +530,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 6553
+ARCHIVE OFFSET 4940
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0335 sec. - Files processed: 7,094 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0331 sec. - Files processed: 5,287 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -646,11 +543,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 7094
+ARCHIVE OFFSET 5287
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0205 sec. - Files processed: 7,573 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0309 sec. - Files processed: 5,628 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -659,11 +556,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 7573
+ARCHIVE OFFSET 5628
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0187 sec. - Files processed: 8,419 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0264 sec. - Files processed: 5,977 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -672,11 +569,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 8419
+ARCHIVE OFFSET 5977
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0204 sec. - Files processed: 8,900 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0230 sec. - Files processed: 6,364 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -685,11 +582,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 8900
+ARCHIVE OFFSET 6364
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0587 sec. - Files processed: 9,487 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0438 sec. - Files processed: 6,515 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -698,11 +595,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 9487
+ARCHIVE OFFSET 6515
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0204 sec. - Files processed: 10,000 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0235 sec. - Files processed: 6,862 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -711,11 +608,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 10000
+ARCHIVE OFFSET 6862
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0195 sec. - Files processed: 10,451 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0339 sec. - Files processed: 7,183 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -724,11 +621,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 10451
+ARCHIVE OFFSET 7183
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0096 sec. - Files processed: 11,334 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0317 sec. - Files processed: 7,493 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -737,11 +634,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 11334
+ARCHIVE OFFSET 7493
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0091 sec. - Files processed: 12,756 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0343 sec. - Files processed: 7,889 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -750,11 +647,11 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 12756
+ARCHIVE OFFSET 7889
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0130 sec. - Files processed: 14,505 of 15,954
+CHUNK COMPLETE - RUNTIME: 5.0322 sec. - Files processed: 8,300 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -763,7 +660,267 @@ LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71]
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 14505
+ARCHIVE OFFSET 8300
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0300 sec. - Files processed: 8,674 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8674
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0335 sec. - Files processed: 9,026 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9026
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0303 sec. - Files processed: 9,400 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9400
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0227 sec. - Files processed: 9,744 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9744
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0302 sec. - Files processed: 10,070 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10070
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0309 sec. - Files processed: 10,365 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10365
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0276 sec. - Files processed: 10,622 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10622
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.9592 sec. - Files processed: 10,955 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10955
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 6.8306 sec. - Files processed: 10,958 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10958
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0312 sec. - Files processed: 11,284 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11284
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0249 sec. - Files processed: 11,583 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11583
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0255 sec. - Files processed: 11,882 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11882
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0274 sec. - Files processed: 12,175 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12175
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0214 sec. - Files processed: 12,462 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12462
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0164 sec. - Files processed: 12,845 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12845
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0198 sec. - Files processed: 13,377 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13377
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0166 sec. - Files processed: 13,864 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13864
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0174 sec. - Files processed: 14,465 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14465
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0223 sec. - Files processed: 15,061 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15061
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0212 sec. - Files processed: 15,603 of 15,954
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15603
 --------------------------------------
 PATHS MAPPING : "C:/xampp/htdocs/minet-site-nou"
 --------------------------------------
@@ -771,7 +928,7 @@ FILE EXTRACTION: done processing last file in list of 16561
 
 EXTRACTION: ZIP CHUNKING >>> DONE
 
-EXTRACTION COMPLETE @ 08:10:07 - RUNTIME: 121.0799 sec. - Files processed: 15,954 of 15,954
+EXTRACTION COMPLETE @ 11:06:56 - RUNTIME: 261.4143 sec. - Files processed: 15,954 of 15,954
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -785,7 +942,7 @@ ADD PREFIX META MAP ID 0 wp_
 
 ********************************************************************************
 * DUPLICATOR LITE: INSTALL-LOG
-* STEP-2 START @ 08:10:07
+* STEP-2 START @ 11:06:57
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -896,7 +1053,41 @@ AJAX ACTION [dbinstall] START
 --------------------------------------
 ** DATABASE CHUNK install start
 --------------------------------------
-DATABASE CHUNK SEEK POSITION: 1797875
+DATABASE CHUNK SEEK POSITION: 365720
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1497759
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2014893
 Auto Commit set to false successfully
 NO TABLE TO SKIP
 Auto Commit set to true successfully
@@ -906,7 +1097,7 @@ Auto Commit set to true successfully
 ERRORS FOUND:	0
 DROPPED TABLES:	0
 RENAMED TABLES:	0
-QUERIES RAN:	12266
+QUERIES RAN:	12268
 
 TABLES ROWS IN DATABASE AFTER EXTRACTION
 
@@ -949,8 +1140,8 @@ TABLE "wp_terms"________________________________________[ROWS:     9]
 TABLE "wp_usermeta"_____________________________________[ROWS:    38]
 TABLE "wp_users"________________________________________[ROWS:     1]
 
-INSERT DATA RUNTIME: 6.3334 sec.
-STEP-2 COMPLETE @ 08:10:13 - RUNTIME: 6.3341 sec.
+INSERT DATA RUNTIME: 18.7735 sec.
+STEP-2 COMPLETE @ 11:07:16 - RUNTIME: 18.7751 sec.
 AJAX ACTION [dbinstall] SUCCESS
 -------------------------
 
@@ -970,7 +1161,7 @@ CHUNK ACTION: CURRENT [start][][]
 
 ********************************************************************************
 DUPLICATOR LITE: INSTALL-LOG
-STEP-3 START @ 08:10:14
+STEP-3 START @ 11:07:16
 NOTICE: Do NOT post to public sites or forums
 ********************************************************************************
 CHARSET SERVER:	"utf8mb4"
@@ -1201,7 +1392,7 @@ EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][
 SCANNED:	Tables:38 	|	 Rows:12161 	|	 Cells:61135 
 UPDATED:	Tables:4 	|	 Rows:534 	|	 Cells:534 
 ERRORS:		0 
-RUNTIME:	2.590000 sec
+RUNTIME:	3.639900 sec
 CHUNK ACTION: CURRENT [rem_maintenance][][]
 
 ====================================
@@ -1290,7 +1481,7 @@ CHUNK ACTION: CURRENT [final_report][][]
 FINAL REPORT NOTICES
 ====================================
 
-STEP-3 COMPLETE @ 08:10:17 - RUNTIME: 2.9360 sec. 
+STEP-3 COMPLETE @ 11:07:20 - RUNTIME: 4.0077 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1338,13 +1529,4 @@ https://duplicator.com/knowledge-base/
 
 
 ====================================
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.33904]  MESSAGE:END RENDER PAGE
-LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
-
-SECURITY CHECK:  Security Check Validation - No Token Found
-	FILE:C:\xampp\htdocs\minet-site-nou\dup-installer\classes\config\class.security.php[252]
-	TRACE:
-#0 C:\xampp\htdocs\minet-site-nou\dup-installer\src\Core\Bootstrap.php(84): DUPX_Security->check()
-#1 C:\xampp\htdocs\minet-site-nou\dup-installer\main.installer.php(55): Duplicator\Installer\Core\Bootstrap::init()
-#2 {main}
-
+LOG-TIME[C:\xampp\htdocs\minet-site-nou\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.62595]  MESSAGE:END RENDER PAGE
