@@ -3427,3 +3427,836 @@
 [24-Oct-2025 08:49:16 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
 [24-Oct-2025 08:49:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ce3a5577a1f98cf1fce08dc016e2db65tmp
 [24-Oct-2025 08:49:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\99c6602a91dd654e255a8259c9b70788tmp
+[24-Oct-2025 08:50:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5c2df81c18c32126795e710aad993873tmp
+[24-Oct-2025 08:50:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ea7e539d192c7cd7409f0f178fd02534tmp
+[24-Oct-2025 08:51:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3823eee0525ea2a22112f54c08c354c6tmp
+[24-Oct-2025 08:51:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2181c1e1684bccbcb1404ab04a14c9c3tmp
+[24-Oct-2025 08:51:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\391e6e126c7eec418b5fc4d2f67d0f2ctmp
+[24-Oct-2025 08:51:39 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\38d7276747eebaa7d0171cbc4d00e8f6tmp
+[24-Oct-2025 08:51:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\531a792b2e490d25f73c086be9dc6038tmp
+[24-Oct-2025 08:51:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b64dfbc7446c114fd511741e8863d88dtmp
+[24-Oct-2025 08:52:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\08708e6af3c2b7f532fe24bb13175abdtmp
+[24-Oct-2025 08:52:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fa4414ed2929e9608023380c825d8317tmp
+[24-Oct-2025 08:53:08 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 08:53:08 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 08:53:09 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 08:53:09 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 08:53:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4dffd41e327badc70d67acc80c871ebdtmp
+[24-Oct-2025 08:53:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc3407d619266535de94f7055c753a46tmp
+[24-Oct-2025 08:54:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\85adf9b676938f8b07f828600c10f932tmp
+[24-Oct-2025 08:54:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\37c3f6ec1f77c66f44bf70a1a15bdf20tmp
+[24-Oct-2025 08:54:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\50fe977e99ad2f11afcc8e96fbe4a31dtmp
+[24-Oct-2025 08:54:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\37206a202f01bfaf74da38ce4b946f66tmp
+[24-Oct-2025 08:55:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0f986932e4d7ffb873db3cb7808c1b9atmp
+[24-Oct-2025 08:55:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ba42ba7aa28ed21c3a8dbe3680816f4ftmp
+[24-Oct-2025 08:55:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\05da0ceaf069c84a6ac4892c52cec651tmp
+[24-Oct-2025 08:55:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d18258dd8c52460308d79bf26442e305tmp
+[24-Oct-2025 08:56:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\38a5e15cb28ac79376d0bed8e343328atmp
+[24-Oct-2025 08:56:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e050c4718636aebe6b0985f3d52782aetmp
+[24-Oct-2025 08:56:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d14996f511043cbb8f60b61a2f140cd7tmp
+[24-Oct-2025 08:56:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\23d1c603e1bc4f3d3b400a8969c9e4cdtmp
+[24-Oct-2025 08:57:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a3be352ce9fb68e93c1a224be1f5f3f7tmp
+[24-Oct-2025 08:57:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\385b7fcf0b148460dbae8fc95ab60ac5tmp
+[24-Oct-2025 08:58:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3347af3b6c5bc717d104a7e9fa67e4b4tmp
+[24-Oct-2025 08:58:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8ccd5a0490e86d7330c3306c4ce8487btmp
+[24-Oct-2025 08:58:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2c714b11017f8cdd76afc425d37fb29btmp
+[24-Oct-2025 08:58:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ad82eb2cddaa1df8ad344c96846809a3tmp
+[24-Oct-2025 08:59:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b77785bef5929e506e243618172f88f1tmp
+[24-Oct-2025 08:59:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6c360802a2243e5a8a1555b852862a65tmp
+[24-Oct-2025 08:59:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\855e723774b9ea74c4fea854d52866edtmp
+[24-Oct-2025 08:59:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\23ec83ad384ee8ff70d2b778052d04aatmp
+[24-Oct-2025 08:59:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cd8d8c11104ca173f91504810fb6bda1tmp
+[24-Oct-2025 08:59:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f4b20cb754126b01a1e5ffcab584544etmp
+[24-Oct-2025 09:00:24 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2848c4009493eaa1d5fb50280adabbe7tmp
+[24-Oct-2025 09:00:24 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2203c6fa3e563bf03f2843e1412ab0a4tmp
+[24-Oct-2025 09:00:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\219e9a4d581cc6860ec87e076dfd8073tmp
+[24-Oct-2025 09:00:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cb6e696298a6e855b75983f1eb6abb84tmp
+[24-Oct-2025 09:01:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2064a391726842a6673fb5955371e5a5tmp
+[24-Oct-2025 09:01:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9fe915e4af3545dd10fe5559a1ef278ftmp
+[24-Oct-2025 09:01:31 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:01:31 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:01:33 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:01:33 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:02:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7ab0e41d4a1b8934f813d8d0e1ec4d94tmp
+[24-Oct-2025 09:02:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\515d0acfca0879369cfb52a6d80557d1tmp
+[24-Oct-2025 09:02:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\761314a4de0a6f9932ed5efdfa4d005dtmp
+[24-Oct-2025 09:02:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6a8f6f4d138cd550546142752ef9d04ftmp
+[24-Oct-2025 09:03:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\19581cb2df74ca518c4ece2e10109350tmp
+[24-Oct-2025 09:03:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\dd1c174eefd95c6982b3f353b3b68fb3tmp
+[24-Oct-2025 09:04:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ec3e85b3b17031ae7cab371369bd821atmp
+[24-Oct-2025 09:04:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a56a3ec29718b32ddeb495b25c401305tmp
+[24-Oct-2025 09:06:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f0c9159ac919124acd9add2a6ae85f3dtmp
+[24-Oct-2025 09:06:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\41550c1462bd7eb3de26c375a1e4f450tmp
+[24-Oct-2025 09:07:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\800d16baff70ef2f99030ba25ce47345tmp
+[24-Oct-2025 09:07:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bbbe6f652ac9755f84c956228a223712tmp
+[24-Oct-2025 09:09:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\afc411749649c9e44ec4ee28ef71dcbbtmp
+[24-Oct-2025 09:09:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9e29b761aba08f5796ac6319a819f60etmp
+[24-Oct-2025 09:11:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ae47337c879c7aee9d82354060c5a817tmp
+[24-Oct-2025 09:11:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\917b7325c27238bedcc69b3b49fc01cbtmp
+[24-Oct-2025 09:12:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ceb4e5433a93ff66cde268c57edfca5dtmp
+[24-Oct-2025 09:12:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\657b7af3050eda61292f60ad1b3c4edctmp
+[24-Oct-2025 09:12:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0cde6551010a98dc0e4a3fcda6349673tmp
+[24-Oct-2025 09:12:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e1d2206407663241c4275fe4587b612dtmp
+[24-Oct-2025 09:12:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0284e36e76e973e91402033ddbb8274etmp
+[24-Oct-2025 09:12:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\28604c32683e181a99d03b59b0b545betmp
+[24-Oct-2025 09:12:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ebe135d75ddb79fdbfee75dcbc25e0fetmp
+[24-Oct-2025 09:12:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f0adceb4473493523f749ddff5616b5btmp
+[24-Oct-2025 09:12:50 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:12:50 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:12:52 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:12:52 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:13:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d4c5c149d97d05b70507a836c4d49106tmp
+[24-Oct-2025 09:13:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b6fbd444057280c988c47d61a38b8ff4tmp
+[24-Oct-2025 09:14:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\32ead176336eecbaa7351ada7d9afa6etmp
+[24-Oct-2025 09:14:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7bf201b240e4d9c070c5d6a4c024b401tmp
+[24-Oct-2025 09:14:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\364b67b84d7476651c275a95aeda7982tmp
+[24-Oct-2025 09:14:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a33c646e6c967b1f359f249d3671e210tmp
+[24-Oct-2025 09:14:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b0e30091e2645357a0c313186c47993dtmp
+[24-Oct-2025 09:14:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\687528fc5c5f732ac398ee2bb0a0891etmp
+[24-Oct-2025 09:14:14 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\586df79199c2df25045cad0afba2f578tmp
+[24-Oct-2025 09:14:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a50019fefbc85c9b2865e855ca80fb4btmp
+[24-Oct-2025 09:14:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\094e592428335ea3ed6fedfaef943104tmp
+[24-Oct-2025 09:14:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7c10f257c45a614739d2aff7007bf081tmp
+[24-Oct-2025 09:14:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c2cb785bf435369ec4c3b84133410be7tmp
+[24-Oct-2025 09:14:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6bdaaa7148a3282572d26764a8ea56c6tmp
+[24-Oct-2025 09:14:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f55759485e06421bc28153e782528c89tmp
+[24-Oct-2025 09:14:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b5a5faae6a72bed5e8f1c2d804bab647tmp
+[24-Oct-2025 09:14:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\17b6174866fc3065bd8fe637a88b057btmp
+[24-Oct-2025 09:14:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc589cf63acf663a66f9011c72f04cd4tmp
+[24-Oct-2025 09:14:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\27582cb36d4c13142d184429a5e0a993tmp
+[24-Oct-2025 09:14:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d8ae39e087f0d8341e18c90ca39c30batmp
+[24-Oct-2025 09:14:51 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:14:51 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:14:52 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:14:52 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:15:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fb931a8a792e536ce1c3e4d5231a827btmp
+[24-Oct-2025 09:15:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2b1d035cfc62e407517d7cafe9e1ab9dtmp
+[24-Oct-2025 09:15:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\533dd1c14408e59c1e32a7dbdd10e1a2tmp
+[24-Oct-2025 09:15:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ff4fe54a4a9d2a21492820410363272btmp
+[24-Oct-2025 09:15:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4522564d5981139ccd84925f94d70c08tmp
+[24-Oct-2025 09:15:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b39adb5e3ca7d0b0de94d9a043721aedtmp
+[24-Oct-2025 09:16:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\18a79eedb7980105ffe9a25c6fd210adtmp
+[24-Oct-2025 09:16:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6e0109021d961a23ded4b95a20361811tmp
+[24-Oct-2025 09:16:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6da8caa1a58e9af10dd936acca226648tmp
+[24-Oct-2025 09:16:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\399f78661133d054bbc6d094acfe5b42tmp
+[24-Oct-2025 09:16:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\01c882e6c99c684dfa40abfcfbba9d72tmp
+[24-Oct-2025 09:16:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e5c60bb1bbf86a5f3e7183e929a579e0tmp
+[24-Oct-2025 09:16:07 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b302ddb4faf6696f11ff413b8bcc66bctmp
+[24-Oct-2025 09:16:07 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\33d645afac2195b57292af9116fc6822tmp
+[24-Oct-2025 09:16:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\90fd601f3a32195001b3264d6a69e6fbtmp
+[24-Oct-2025 09:16:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b669208260d29133e491fff5a0616dd4tmp
+[24-Oct-2025 09:16:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\87d64b38d84c192fa536af5b6feda844tmp
+[24-Oct-2025 09:16:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\904721fc070866b04dd635f29e6517fbtmp
+[24-Oct-2025 09:16:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f8e04b814230da8c61334638f84ddfc1tmp
+[24-Oct-2025 09:16:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\594c1db918a79da41ef46f43abc76c94tmp
+[24-Oct-2025 09:17:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5fa4044e5a922fa897f3828e71b42e17tmp
+[24-Oct-2025 09:17:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\63a95f4e47649b9e73052b41aa96fb81tmp
+[24-Oct-2025 09:17:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\278f5477f83b8405f3f2ad9a0a4bb75ftmp
+[24-Oct-2025 09:17:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f248a3355a6ae11f740693a49a60ca33tmp
+[24-Oct-2025 09:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6bb467d3615a4f890a7d1c73f2e310cdtmp
+[24-Oct-2025 09:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\61fa1a19ad76340afffdc7d4e9ac9d7btmp
+[24-Oct-2025 09:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\74b906883e51ae740c7361eeadbfb8d6tmp
+[24-Oct-2025 09:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\201885d3caf854528251325f1634a294tmp
+[24-Oct-2025 09:18:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2e597ecbcd1a05d90d5174b96d525633tmp
+[24-Oct-2025 09:18:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f2ac7c0b58438518e5a0a594ee264db3tmp
+[24-Oct-2025 09:18:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6516f23a18cef9fa307e67e9971f161btmp
+[24-Oct-2025 09:18:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bd3523655573b56b02c9e5da7caad10btmp
+[24-Oct-2025 09:18:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e4767b30060576db5b172f25e7176abbtmp
+[24-Oct-2025 09:18:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b20d6ca7a7ac8c1c12cdb07700813476tmp
+[24-Oct-2025 09:18:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fba1e687232f24c00722f118c4c2ee97tmp
+[24-Oct-2025 09:18:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2a765ef73e367fb1e42b93cb05015050tmp
+[24-Oct-2025 09:18:52 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:18:52 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:18:54 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:18:54 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:19:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\450536837944dd630e158b7982412b45tmp
+[24-Oct-2025 09:19:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\551a6d24c08de8de258b6d46cf5c0bd4tmp
+[24-Oct-2025 09:21:47 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c45e9ab2f5c5db2577dce4d77f503a15tmp
+[24-Oct-2025 09:21:48 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ff0816fd2ff6291e9cb5b2bdf68b25e8tmp
+[24-Oct-2025 09:23:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0d6d5690d7f311ec80d2f92dd47c2029tmp
+[24-Oct-2025 09:23:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b0b029de3891c9c1d3a54dce13bcfb7etmp
+[24-Oct-2025 09:25:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\34739a584bc982f61620385e94ad64e1tmp
+[24-Oct-2025 09:25:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e2f6a1c7ffdb4139c6da704f1dd3f0e8tmp
+[24-Oct-2025 09:27:51 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\95f55c175dd0d1d4b8e4f289f046d22btmp
+[24-Oct-2025 09:27:51 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\696d250573eb47941c2be5082a0ea32etmp
+[24-Oct-2025 09:29:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c4daf1a13992119efd9c5c0cab131ea3tmp
+[24-Oct-2025 09:29:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5b22873f6623f5dac0eeb35028f00ff1tmp
+[24-Oct-2025 09:31:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\131dfb86f2a1e588b31adbf3bf0e9483tmp
+[24-Oct-2025 09:31:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f840461590ca1bbc3b804862ee243395tmp
+[24-Oct-2025 09:33:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9ca46677dcce7eccc69a06dd6952b9aetmp
+[24-Oct-2025 09:33:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\89d6e2ca1f101e932d48869a84c0d908tmp
+[24-Oct-2025 09:35:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b9d2f09b5e8d6e4fb9784a6feb4df888tmp
+[24-Oct-2025 09:35:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b378839582af664b11671c41254768cetmp
+[24-Oct-2025 09:37:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ce8d053042c8d1920c8b6f8c77799c02tmp
+[24-Oct-2025 09:37:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2d21e4bd885e8db3e8e9b8a5f69ec3fftmp
+[24-Oct-2025 09:39:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b8acfee82f5d41929e5f344a85f2e447tmp
+[24-Oct-2025 09:39:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\693457cd2cd728b3b94d124956fe025atmp
+[24-Oct-2025 09:41:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ed86d0340d56d9ad521b33dd9a6f3345tmp
+[24-Oct-2025 09:41:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5125ed3c1f3b2fbb16a00db6434dc5detmp
+[24-Oct-2025 09:43:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\af0a020e58c010961d0949b0c4f1f62atmp
+[24-Oct-2025 09:43:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\51c5eab43c66ff9170e0e915b0e7d2d9tmp
+[24-Oct-2025 09:45:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc779a2f7c9c265a1757d233d5df002atmp
+[24-Oct-2025 09:45:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d26afa71486749061521379264f3d00dtmp
+[24-Oct-2025 09:47:45 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:47:45 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:47:46 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:47:46 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:48:02 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:48:02 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:48:03 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 09:48:03 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 09:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\81423d938a5a430d05e30de1e2efa031tmp
+[24-Oct-2025 09:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f65b7a6e7efb06f631ada6c78588d016tmp
+[24-Oct-2025 09:50:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2e774cb7edff4abe0aecac10feda35f5tmp
+[24-Oct-2025 09:50:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\12c14abf77f79bd611fa3fb518e9950dtmp
+[24-Oct-2025 09:52:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d1fdd0669c095661dcab0c2efd034be4tmp
+[24-Oct-2025 09:52:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5ebbe664fa90a140841c85211cf8ca39tmp
+[24-Oct-2025 09:53:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2abfa78780d53b30a567fda3f426fa32tmp
+[24-Oct-2025 09:53:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1b97b2473b377a0855d66d0b0332d990tmp
+[24-Oct-2025 09:53:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 09:53:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 09:53:20 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:53:20 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 09:53:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f03b1eee007f63fdfa31141edd2c23c6tmp
+[24-Oct-2025 09:53:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3f06c807bebef463b2c0bae1974fec93tmp
+[24-Oct-2025 09:53:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7dbd5163250958a084aab9afe2787209tmp
+[24-Oct-2025 09:53:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4d5222b923786db1dfca3f45d6decffdtmp
+[24-Oct-2025 09:55:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\14ef2d374e5404417d99c412cf5ee48btmp
+[24-Oct-2025 09:55:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0ecf0944d3ed4da007cbdbeb79dffe31tmp
+[24-Oct-2025 09:57:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\69f1e8042d0901eba88c3820ddb04dfbtmp
+[24-Oct-2025 09:57:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\eb907d3c237fd112e43bc524655d67bdtmp
+[24-Oct-2025 10:00:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e782f56a19db4bb05a9ea6a15d789ab0tmp
+[24-Oct-2025 10:00:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4385dd4b75a352017c0c4cbdf2879779tmp
+[24-Oct-2025 10:02:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\aa4c079f2e669de1a57325f4ae70436ftmp
+[24-Oct-2025 10:02:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\dc87bd5be47334cc63326ae55a3c4424tmp
+[24-Oct-2025 10:04:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c1ec75c8bcddc0139e6897187559519dtmp
+[24-Oct-2025 10:04:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\21fa5736ca71725e07481157408f6538tmp
+[24-Oct-2025 10:06:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\023abdfe18ba6c9a071aaef8bab39a77tmp
+[24-Oct-2025 10:06:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a9ed9a8a8ab6de627800aa6e3d46475ftmp
+[24-Oct-2025 10:08:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\766f62cef4ef60323c0bb4da4e72f0b3tmp
+[24-Oct-2025 10:08:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f5d7fc8f35c9ff3338bade845a10b826tmp
+[24-Oct-2025 10:10:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8c8c0d4acb3f11621fa8bdaabc28b0cftmp
+[24-Oct-2025 10:10:06 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\44d1c5e0e69ea56131eaff9364a4a436tmp
+[24-Oct-2025 10:12:07 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f12eaaf15b459539180f99a82a7d3994tmp
+[24-Oct-2025 10:12:07 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cba0c1ca588f5d34c210ee4144266364tmp
+[24-Oct-2025 10:14:08 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\42607f1012260e9c403a7bd37e8eb8betmp
+[24-Oct-2025 10:14:08 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a1b809ce84e936c8db2a082842e0af1dtmp
+[24-Oct-2025 10:16:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e06325c589c082f4bbe6dbb9673709catmp
+[24-Oct-2025 10:16:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6ad16d51a31b88c4a4255621c0eda224tmp
+[24-Oct-2025 10:18:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d9703f200f4e5523e0277fab5e88dc68tmp
+[24-Oct-2025 10:18:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7112cf0a89e9d82f84897b601f4ff435tmp
+[24-Oct-2025 10:20:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0155ecd3716f7acd525111c6ee355ae0tmp
+[24-Oct-2025 10:20:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9f95b21f4a8d6965dab2c775dfc909cetmp
+[24-Oct-2025 10:22:11 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\842802c1fd087366f1bcc377fdcebc5ctmp
+[24-Oct-2025 10:22:11 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2530c2485e4d2cda36437e13f0f2d257tmp
+[24-Oct-2025 10:24:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d8022fdbf7cf75c2ca91669e9f897272tmp
+[24-Oct-2025 10:24:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\732a862da06b85a29c202d97df387691tmp
+[24-Oct-2025 10:26:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\63b2487a874083d368adee9571cccfaetmp
+[24-Oct-2025 10:26:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4bcf0eed63690acaaa9a7be64433b9aftmp
+[24-Oct-2025 10:28:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f6bce306fd037e839b1fd109b06432abtmp
+[24-Oct-2025 10:28:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4c4b94f36bb0093799707859d4c418e6tmp
+[24-Oct-2025 10:30:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9eb7c26f8a7c5f2f39f60563ffabd15atmp
+[24-Oct-2025 10:30:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3f1581a66c71932ae0d6d735e602aa68tmp
+[24-Oct-2025 10:32:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\431f203878dab16c93938b681b7fc759tmp
+[24-Oct-2025 10:32:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\73b8fe7a92cfa6ba8d860bb7a9b829c1tmp
+[24-Oct-2025 10:34:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8db523b92bcf6e3a5d40c4dfa63449e4tmp
+[24-Oct-2025 10:34:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7e8583d4ee4a9602fff712f5de05922btmp
+[24-Oct-2025 10:36:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0894cef971272617aa29ee96e3bd06e5tmp
+[24-Oct-2025 10:36:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4da7ac33762b409db24d7273726e4679tmp
+[24-Oct-2025 10:38:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ff2761f0bad7f11fe6dd0d3d37a33b82tmp
+[24-Oct-2025 10:38:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\65c1a9c9664e805ba1589e115b21074ftmp
+[24-Oct-2025 10:40:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\081b195953f9bbb2baf88a21f322f66atmp
+[24-Oct-2025 10:40:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6e45f48d69594f49697bd6cd75ea07f2tmp
+[24-Oct-2025 10:42:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\188f68957d3403a8d64ebec8f146b9cbtmp
+[24-Oct-2025 10:42:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\db30586906dc23b1adea0f36cc15fa96tmp
+[24-Oct-2025 10:44:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a591cdc4f1a48085f0f76d600b190891tmp
+[24-Oct-2025 10:44:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7784fc94fe127c64ec393d56f67d9a6etmp
+[24-Oct-2025 10:46:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\481b118ec93e2c2b224efcc013e4ce34tmp
+[24-Oct-2025 10:46:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6e9f5864d3ddec8b098f5678cd25a66dtmp
+[24-Oct-2025 10:48:26 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 10:48:26 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 10:48:27 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 10:48:27 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 10:48:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9e53b764f2dcbf8bdbc7d0c0d7705685tmp
+[24-Oct-2025 10:48:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ce1b913bfb12702678a75c0ec0a97042tmp
+[24-Oct-2025 10:50:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4d3d18c4440e5324ad19fd82fd236f8dtmp
+[24-Oct-2025 10:50:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\21a5507c25f0f095bbcf03bae5ef2f7ctmp
+[24-Oct-2025 10:52:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7b817e2e17439bfb05ff1db5e01bdc9ctmp
+[24-Oct-2025 10:52:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5f5f4fb33a2bdc51174b817e923e223ftmp
+[24-Oct-2025 10:54:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\70dd0c4a20f91ac03124314d32712ba0tmp
+[24-Oct-2025 10:54:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4170227c0795e15272048cec6bb95c6btmp
+[24-Oct-2025 10:56:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8d623120879ecddcf732d8826e08cc46tmp
+[24-Oct-2025 10:56:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b0236a059edf96e0f2e82d9fc7972df8tmp
+[24-Oct-2025 10:58:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b481e5ac3e15760238eeb161f36c7e04tmp
+[24-Oct-2025 10:58:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bbc355c89ab963ba3e15dc159c7e15e7tmp
+[24-Oct-2025 11:00:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\eb7d9abd45e94367d73e79353ed24491tmp
+[24-Oct-2025 11:00:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2be5789ab8e4214d3a5da86b60b61a13tmp
+[24-Oct-2025 11:02:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\91e0b38dc6e9fa88059cdf1e86fb9736tmp
+[24-Oct-2025 11:02:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b4fe2872477af258ed3ea3ebe085719ftmp
+[24-Oct-2025 11:04:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\63d0f726142548221624e55006aecde5tmp
+[24-Oct-2025 11:04:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\94c38c91ac7503d95e1da517e32cc5d1tmp
+[24-Oct-2025 11:06:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fc23be5e2727ff0eed54717d15f3bc25tmp
+[24-Oct-2025 11:06:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7a726098dff09fde6134b833210dec77tmp
+[24-Oct-2025 11:47:09 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:47:09 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:47:20 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:47:20 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:47:31 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:47:31 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[24-Oct-2025 11:48:56 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 11:48:56 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 11:48:57 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 11:48:57 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 12:39:27 UTC] Automatic updates starting...
+[24-Oct-2025 12:39:29 UTC]   Automatic plugin updates starting...
+[24-Oct-2025 12:39:29 UTC]   Automatic plugin updates complete.
+[24-Oct-2025 12:39:29 UTC]   Automatic theme updates starting...
+[24-Oct-2025 12:39:29 UTC]   Automatic theme updates complete.
+[24-Oct-2025 12:39:29 UTC] Automatic updates complete.
+[24-Oct-2025 12:41:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\15a93f9177f889be42244e2b5cfc9514tmp
+[24-Oct-2025 12:41:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ee0128f4c51d64185c48f74c3b4ffedbtmp
+[24-Oct-2025 12:43:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8b31037058e9ebbdea0fdbe92e37ff98tmp
+[24-Oct-2025 12:43:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cb574c44400b66179ec435de5bc29d86tmp
+[24-Oct-2025 12:45:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2e6446629047fd38d80c267aa2c21e20tmp
+[24-Oct-2025 12:45:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\83bcd818c99d92aced68e747bdd15c81tmp
+[24-Oct-2025 12:47:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\61f273ae0e2cdcd35769dcc76f817242tmp
+[24-Oct-2025 12:47:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\128b5a90be451b0ba421b5127319a452tmp
+[24-Oct-2025 12:49:26 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[24-Oct-2025 12:49:26 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[24-Oct-2025 12:49:27 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 12:49:27 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[24-Oct-2025 12:49:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\be5b4492ec30838e637d039ec4b3235ftmp
+[24-Oct-2025 12:49:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c8dc24687db2966b4a37a3f997bf4e47tmp
+[24-Oct-2025 12:51:24 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4e744257d7f1f2baa5d38c0c3a604ff9tmp
+[24-Oct-2025 12:51:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b16817c8199d4b043d61a89e12357c28tmp
+[24-Oct-2025 12:53:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\28dcb437fb925403ee8e50eb2460376etmp
+[24-Oct-2025 12:53:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\75215d02c84607f016c0ec465d4226c4tmp
+[24-Oct-2025 12:55:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\98c328b5619db76c07dae4e613ae836ctmp
+[24-Oct-2025 12:55:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5f960c328c98abe4da9adf3ce9481340tmp
+[24-Oct-2025 12:57:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\42ce18e363410997e6d66a4db432afa2tmp
+[24-Oct-2025 12:57:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5dc21b4309b459450c9fac51c356c82ftmp
+[24-Oct-2025 12:59:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4bda29d260cd834ad8d1ea86ccb7a3f5tmp
+[24-Oct-2025 12:59:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9ed5b0720b78ae363e5b768f59eb3159tmp
+[24-Oct-2025 13:01:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1285ae352e9322f39da4275b7662626etmp
+[24-Oct-2025 13:01:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c1829e0fc166feb3fe1ea2e5b0fa937btmp
+[24-Oct-2025 13:03:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2de7d5ec34fdd24271c28209c49da7b8tmp
+[24-Oct-2025 13:03:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\25ca2b4e8bf692541d483ba4f86dd06btmp
+[24-Oct-2025 13:05:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7d75e7d72304d947d8381c219d4a3ea3tmp
+[24-Oct-2025 13:05:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\73ff3212bdc948668d79a1b662db5874tmp
+[24-Oct-2025 13:07:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fdaadcce9453cb7874022c28be20f57etmp
+[24-Oct-2025 13:07:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fc0394dfc8c9f4f7d9ba62e449267e32tmp
+[24-Oct-2025 13:09:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a8250959908bcbaf3fac39b5205b17actmp
+[24-Oct-2025 13:09:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c97b197f69ffa3cae1ac2bb633788469tmp
+[24-Oct-2025 13:11:34 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\af22ea0ddb14dde2ba88ef3d9c1c0bfctmp
+[24-Oct-2025 13:11:34 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a8da10c547456f0af90c3c74c907d691tmp
+[24-Oct-2025 13:13:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c613d46f523e3515d658a26349b50a13tmp
+[24-Oct-2025 13:13:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ad67a8dec650134ed89c08f86cd72739tmp
+[24-Oct-2025 13:14:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d06b0f861515ab98eaddfc25cdb9bcf7tmp
+[24-Oct-2025 13:14:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\95c9a2cb9717005aff5060235c9e2f1ctmp
+[27-Oct-2025 06:37:18 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:37:18 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:37:19 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:37:25 UTC] Automatic updates starting...
+[27-Oct-2025 06:37:25 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:37:26 UTC]   Automatic plugin updates starting...
+[27-Oct-2025 06:37:26 UTC]   Automatic plugin updates complete.
+[27-Oct-2025 06:37:26 UTC]   Automatic theme updates starting...
+[27-Oct-2025 06:37:26 UTC]   Automatic theme updates complete.
+[27-Oct-2025 06:37:26 UTC] Automatic updates complete.
+[27-Oct-2025 06:37:32 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:37:32 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:37:33 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 06:37:33 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 06:37:34 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d988891fd1c5adac12728fdcb265d93atmp
+[27-Oct-2025 06:37:34 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d71067a13785b18414cd9b659dde2ccdtmp
+[27-Oct-2025 06:37:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\311ea57cebc62dc0c133c31fef8c36fctmp
+[27-Oct-2025 06:37:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b432bb9f7f236dc931663fff706eed6etmp
+[27-Oct-2025 06:37:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e909aa4fd6f7063d69edd2c119bc12d0tmp
+[27-Oct-2025 06:37:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5c31f0ebebb5d8e4734ba8e01b31806etmp
+[27-Oct-2025 06:38:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a16c3167258219b383d8b4a601454d71tmp
+[27-Oct-2025 06:38:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a8b5bf024251d55935b64497dd6f7ab0tmp
+[27-Oct-2025 06:40:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5837140dc93cbe9aa8fe42a8a2634fa1tmp
+[27-Oct-2025 06:40:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e5efa4064a3246c325d151fe0786198ctmp
+[27-Oct-2025 06:43:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\56d5c5cae568b7e54bf194ff5b3b5a63tmp
+[27-Oct-2025 06:43:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3a4bb44e60c1e677343546626d017057tmp
+[27-Oct-2025 06:45:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\75c9f212dc303fadd9e96290d39b00e9tmp
+[27-Oct-2025 06:45:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ad603a3d800cda5db8b34be991cf5407tmp
+[27-Oct-2025 06:47:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c6675f3372dff234275e09387fef0c46tmp
+[27-Oct-2025 06:47:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b4ce9eb2e902b59c5ac86e026f515170tmp
+[27-Oct-2025 06:48:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ae85fc2609580d0216ff3ab5b265fb3dtmp
+[27-Oct-2025 06:48:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c499f48c95151f868422457b111f3139tmp
+[27-Oct-2025 06:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e64b715c36b1a7c0dabc70b29d866f45tmp
+[27-Oct-2025 06:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3a86a9df194e304504ef19e5c2153517tmp
+[27-Oct-2025 06:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fb6ac98bb2e6a04d2cde3befb5e87689tmp
+[27-Oct-2025 06:48:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3a90688e3b66b7eaaa3494d377b76622tmp
+[27-Oct-2025 06:48:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\63dc745d0724e498bc877e701ea2d6eetmp
+[27-Oct-2025 06:48:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\19fcccc044ccfdd2f2b8b35fc865e146tmp
+[27-Oct-2025 06:48:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\511d9b5bc1dc02f4d51280238fa56e2atmp
+[27-Oct-2025 06:48:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2faa39492f3520d81e6c342d340649c0tmp
+[27-Oct-2025 06:48:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\43b835eaa91d7db5f476546bd29ea023tmp
+[27-Oct-2025 06:48:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3f31740a35dc6221d301c4219386ace7tmp
+[27-Oct-2025 06:49:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:49:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:49:24 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:49:24 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:49:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e401664138c4d57a133d7efe8465240etmp
+[27-Oct-2025 06:49:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8645dfcdff3b1bbfb6d480abf0c7f6fctmp
+[27-Oct-2025 06:49:34 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:49:34 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:49:35 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:49:36 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:50:04 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:50:04 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:50:05 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:50:05 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:50:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\62dfe31bc17bdc42f102f29cc876759dtmp
+[27-Oct-2025 06:50:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0250ed43f2ab0de2d5641348934a0005tmp
+[27-Oct-2025 06:50:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\97ee7bbd5791cff2dee137822383c077tmp
+[27-Oct-2025 06:50:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3f019857337008cb9a56be38492940c2tmp
+[27-Oct-2025 06:50:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1cd332b5d5082de30de4cada088bf47dtmp
+[27-Oct-2025 06:50:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4ca66716e8a582bb25c7be4452bb6c70tmp
+[27-Oct-2025 06:50:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\822570202ff84443ce4eec610a51e76ctmp
+[27-Oct-2025 06:50:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b36354bd84af0751b8ffb22ba69395cdtmp
+[27-Oct-2025 06:50:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0495fce998c35bc6f665eda17efff352tmp
+[27-Oct-2025 06:50:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b9b912f2fc8ee1ee35173913bc18f4eetmp
+[27-Oct-2025 06:51:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4f683062ecdce150bd286397c78ef266tmp
+[27-Oct-2025 06:51:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\423657f4bec2438149240fa1aec09707tmp
+[27-Oct-2025 06:51:04 UTC] PHP Warning:  Attempt to read property "title" on null in C:\xampp\htdocs\minet-site-nou\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Oct-2025 06:51:07 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:51:07 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:51:09 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:51:10 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:51:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f120717123633f930737eb86ccb7d22ctmp
+[27-Oct-2025 06:51:14 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\064294726432e49589387bcf01596c20tmp
+[27-Oct-2025 06:51:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2039c880513e20c4d86c8e342aecbab2tmp
+[27-Oct-2025 06:51:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\800232c10d2baf1876e2dc03dd878dabtmp
+[27-Oct-2025 06:52:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8190365a5c6489278875a76419757baatmp
+[27-Oct-2025 06:52:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bbea75fc39bb7f28ab8b6f147eaeb9e0tmp
+[27-Oct-2025 06:52:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f6e7be61bf481bc3d38b68d8a12b5a38tmp
+[27-Oct-2025 06:52:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a4f53461b9532a83dbb362df8228768btmp
+[27-Oct-2025 06:52:12 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e22ff4d9bd5d9b9c1c04b8884d84b1fetmp
+[27-Oct-2025 06:52:12 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c1499acd4975b9eff895637ac6210726tmp
+[27-Oct-2025 06:52:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\530dd14716414c866d17b19014e3060atmp
+[27-Oct-2025 06:52:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\557c7b8ab52aff1cba44500ae2d9ea29tmp
+[27-Oct-2025 06:52:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\392a37d6862c45ea90163f6da0df0dd3tmp
+[27-Oct-2025 06:52:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2d2fa3e022d5a58a51b76d83096910d0tmp
+[27-Oct-2025 06:52:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b4499196a9161a5e5773c2851be64975tmp
+[27-Oct-2025 06:52:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\393399d3740519cb77317b6a444fe1cetmp
+[27-Oct-2025 06:52:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7d9e16f19f994dad2fb885a56cadcb34tmp
+[27-Oct-2025 06:52:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6c8cd2c043d45244e6c31bc4e7760d93tmp
+[27-Oct-2025 06:53:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ef9c72935f84105012d39cd191d383dbtmp
+[27-Oct-2025 06:53:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\61429aef7e75b7c7a736d957f8472ff8tmp
+[27-Oct-2025 06:53:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a1a46299d4bcf274a7444c56ff4c9b70tmp
+[27-Oct-2025 06:53:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9b810c7d4d7f43bbc022d6f188312305tmp
+[27-Oct-2025 06:54:13 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:54:13 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:54:15 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:54:15 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:54:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4b50ca4a85a95546111369cd306ed9a4tmp
+[27-Oct-2025 06:54:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\22f3a615899835f1c155ade053104e6ctmp
+[27-Oct-2025 06:55:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1a12a35b8ce90a2f4bcf8bffca4b0676tmp
+[27-Oct-2025 06:55:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cb2025a98cfc570033217e9fa52158a7tmp
+[27-Oct-2025 06:55:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\21eeead5c11c7044285bd5335faaa4fftmp
+[27-Oct-2025 06:55:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9458fdf8d02362b822aed84297394b67tmp
+[27-Oct-2025 06:55:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\78ccc68b0826a37f8640db72ae91a86btmp
+[27-Oct-2025 06:55:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b8ce2972ddaac34979b7ad23534189e3tmp
+[27-Oct-2025 06:56:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4bbd92a19221e1551f36d376ee1a7c32tmp
+[27-Oct-2025 06:56:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9be0cbe113f48723ffc153ada16507d1tmp
+[27-Oct-2025 06:56:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ed486829182c9dc2027f66a50f8a7d83tmp
+[27-Oct-2025 06:56:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e885391693a9a9667f8266392c4026fetmp
+[27-Oct-2025 06:56:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a19918843e5e40a0eb14d3f52a09e2e3tmp
+[27-Oct-2025 06:56:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f9c30c1511060eb52c94ddb72ee4cdb0tmp
+[27-Oct-2025 06:56:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b21fb790cd684b89c280598960420668tmp
+[27-Oct-2025 06:56:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b26fbb12be1bef5264f95b78394074a1tmp
+[27-Oct-2025 06:56:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d0cc223719c1a7f24a84fa910000112ftmp
+[27-Oct-2025 06:56:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9eb7bfdd35a57cc5ba6ebfb3657079eftmp
+[27-Oct-2025 06:56:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\52056646af0df5b5f95c4589ea7956b4tmp
+[27-Oct-2025 06:56:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2d05dd00fe687b5efaa78df2f7cc6c4ftmp
+[27-Oct-2025 06:57:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d297b3b8176e80537d1930d1032dbe72tmp
+[27-Oct-2025 06:57:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1b6c1086fbd7ed0f9cc24001715ec3b1tmp
+[27-Oct-2025 06:57:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\13e8bf1320b336b33e9ae2fea97ec5aetmp
+[27-Oct-2025 06:57:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a429d4e0c42429879bab01a4422bc266tmp
+[27-Oct-2025 06:57:37 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\51938b4595ceff533ca07d4e29a0a2c6tmp
+[27-Oct-2025 06:57:37 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\aaa36fa97e145b84d57957c61745effctmp
+[27-Oct-2025 06:57:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\298c9089480fe726f9b73de874d2c384tmp
+[27-Oct-2025 06:57:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\277545d011d4a9a6ac1901fcfa20de71tmp
+[27-Oct-2025 06:57:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e538563a63b3392f4c5cc8eedc0e89adtmp
+[27-Oct-2025 06:57:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\05a8f59cec832acf2de206e2cd4a14f8tmp
+[27-Oct-2025 06:57:47 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\57221f50ba48765a312c949c0440bc6atmp
+[27-Oct-2025 06:57:47 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2103156ecc33e7e76e268720203fad36tmp
+[27-Oct-2025 06:57:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\db7c11eb3f5c9671f67dbd6901968ca9tmp
+[27-Oct-2025 06:57:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c30355b08bd764cf436f0d1e61ac1d04tmp
+[27-Oct-2025 06:57:56 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 06:57:56 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 06:57:57 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:57:57 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 06:58:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4607c64b06ee5100a610f2be55788536tmp
+[27-Oct-2025 06:58:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e5907e79f6b9c7a88e0695a3b2bbacb1tmp
+[27-Oct-2025 06:59:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3b3ca37484e5009a3a72c37e30cab6batmp
+[27-Oct-2025 06:59:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d3ab92a57ba4780513ed43abd2eae966tmp
+[27-Oct-2025 07:00:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\37ceb584d8fbc9224a9f47331d1fa43ctmp
+[27-Oct-2025 07:00:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\297c1b344010b44ea2ef59fd9cb97309tmp
+[27-Oct-2025 07:00:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6e922af8274cad8b3baff7f9b2b56d28tmp
+[27-Oct-2025 07:00:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b7a2b27c28e485d4a623ee1b47e978ebtmp
+[27-Oct-2025 07:00:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\50fce87332a54f36e3500b87fa22bc00tmp
+[27-Oct-2025 07:00:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\22384823302601be43d4fa0bd200b666tmp
+[27-Oct-2025 07:00:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e415b18793401690344d608a9075c2e0tmp
+[27-Oct-2025 07:00:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\02497bf7547026d8689bd0a1f4edb593tmp
+[27-Oct-2025 07:00:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\204112d8ae1230cbbf872b52906cd9a6tmp
+[27-Oct-2025 07:00:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d6b2ae04706e9b552186811601001f48tmp
+[27-Oct-2025 07:00:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\xampp\htdocs\minet-site-nou\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Oct-2025 07:00:59 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:00:59 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:01:00 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:01:01 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:02:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e51653ac6aaa3e9f3733d554e77b8c84tmp
+[27-Oct-2025 07:02:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a40a3ca0ce0becfbb608e1c78d98d3b3tmp
+[27-Oct-2025 07:03:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\abf7d4b218b2b57c242f9c562c26f6batmp
+[27-Oct-2025 07:03:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3750b842bef65fb83e0234c07d71449ftmp
+[27-Oct-2025 07:04:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3a37cfd6cf8fdedb732424aa5c887d77tmp
+[27-Oct-2025 07:04:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\93089cd839b203e94d93e53d1da5b431tmp
+[27-Oct-2025 07:05:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\687e8acf62c47334d5489c0f360c60actmp
+[27-Oct-2025 07:05:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\736ed9ed52a874e5a3fb708bb2174901tmp
+[27-Oct-2025 07:06:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d3fba0c55126fd1501581b240f35b544tmp
+[27-Oct-2025 07:06:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8bd97ba67b3639427a58afa9dfc6c088tmp
+[27-Oct-2025 07:07:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\db17b800aeca064a77fdbe93a862ba95tmp
+[27-Oct-2025 07:07:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e9ff996799371826ea5528a2f635b785tmp
+[27-Oct-2025 07:08:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1071017f9087ad120dfd0c324f07989etmp
+[27-Oct-2025 07:08:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f14ea0ea1e086230f0fcda010d923e79tmp
+[27-Oct-2025 07:09:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\245fb626e4b6652d5c2be1f87e185d87tmp
+[27-Oct-2025 07:09:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\37d390699a426879b4e2b5cd415d09b5tmp
+[27-Oct-2025 07:10:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\062d6b3b6069661680f27449786a5758tmp
+[27-Oct-2025 07:10:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ff8ac1d6aa3e10893240761e5bad110etmp
+[27-Oct-2025 07:11:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b0b3fbf1eff474a25ca515861e493576tmp
+[27-Oct-2025 07:11:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\37bf58b50f377ff07675a6f8092d9e6atmp
+[27-Oct-2025 07:11:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\04d5e013242ad38b08c1285098b58fb7tmp
+[27-Oct-2025 07:11:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e39e6e6c440635e21ebe3ff575748698tmp
+[27-Oct-2025 07:12:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a60e310e9cd0116b6c4cbf2ecc1cfcdftmp
+[27-Oct-2025 07:12:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d34b449cfde72bb13d9ad2ea512ae603tmp
+[27-Oct-2025 07:12:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\146b450ae67e4752623ac05c2dafaad9tmp
+[27-Oct-2025 07:12:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1d48466a0bf4ebf289c8a4bd64cbf87etmp
+[27-Oct-2025 07:13:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\919c7268803d14bce5b7d83afcec8dcdtmp
+[27-Oct-2025 07:13:02 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1aa14a29f671dd479f21eab323ab1507tmp
+[27-Oct-2025 07:13:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2d80d1631ac8a104e90852a0b14bf49atmp
+[27-Oct-2025 07:13:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9ffcec52edf18ea403decd67266e6577tmp
+[27-Oct-2025 07:13:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2db309eeace8f83182eb05f8cdbfe7d9tmp
+[27-Oct-2025 07:13:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3256ef35077723e034848152ae8a4f76tmp
+[27-Oct-2025 07:13:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\xampp\htdocs\minet-site-nou\wp-includes\class-wp-customize-widgets.php on line 905
+[27-Oct-2025 07:13:53 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:13:53 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:13:55 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:13:55 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:14:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc93928df5f1d6a81efd983e97a2118ftmp
+[27-Oct-2025 07:14:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d50fcedf226949378d1b32e084250622tmp
+[27-Oct-2025 07:14:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\af120d08a2dd927d92c0fabd84d23152tmp
+[27-Oct-2025 07:14:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8379b67b4a48ceb4f2392cd36504f438tmp
+[27-Oct-2025 07:14:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\34fef3d4b8a0898bd220da59edc14187tmp
+[27-Oct-2025 07:14:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1fb2d6f9826df74737da0de060a4b696tmp
+[27-Oct-2025 07:14:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\949b6fe3cae61f7d1477048ca1c27ee0tmp
+[27-Oct-2025 07:14:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ccd54fe31f556d7050e90bb4de258d27tmp
+[27-Oct-2025 07:14:37 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bfe4563f6e4315f2320b305ea868c460tmp
+[27-Oct-2025 07:14:37 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e69d51d977fd78d7737bc279c2a73959tmp
+[27-Oct-2025 07:14:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0bcda7baa4a9246bdc624f92f5afe8f3tmp
+[27-Oct-2025 07:14:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\aee267d66c123668f95b05782c62dfbctmp
+[27-Oct-2025 07:14:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6dc695aaec92bb03be8d912e3fa64a4etmp
+[27-Oct-2025 07:14:45 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e5721ce37b96f259c60a78e7025364aetmp
+[27-Oct-2025 07:14:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8d3c53a55f12450fcd507eefe494a12atmp
+[27-Oct-2025 07:14:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\565f5b56aaac7ca0851358dc421112fdtmp
+[27-Oct-2025 07:14:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1516059abbdd1ac9debfc456c1dc9b4ctmp
+[27-Oct-2025 07:14:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\69b89292b6d51b88f0f62e26d7cc9f0atmp
+[27-Oct-2025 07:14:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\126ad7d9c3a9616b7f669c3c9009b0d0tmp
+[27-Oct-2025 07:14:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a92985466992fbaf56f3b290a820122atmp
+[27-Oct-2025 07:15:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\002f40541dfc3268fb45b1f264086ad5tmp
+[27-Oct-2025 07:15:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\623a5c1495537c8fd42ea69fe13ca5fatmp
+[27-Oct-2025 07:16:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8285be561ba09d48916113e6f1e813bdtmp
+[27-Oct-2025 07:16:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ca992cd4908fa4bf21d96ccff4139b16tmp
+[27-Oct-2025 07:17:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c45b1b51733a3ffed6870bc2f7fa09b9tmp
+[27-Oct-2025 07:17:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a1124d05a35c08faf919442c08553c62tmp
+[27-Oct-2025 07:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4090cf7c774b3ab642bb2564040a466ftmp
+[27-Oct-2025 07:17:50 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e1fc56c39985fdb63c0372915d7a7bd6tmp
+[27-Oct-2025 07:18:51 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\df5df341c0c7cfb0a6234626a10703detmp
+[27-Oct-2025 07:18:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d1aa7d60a76ed16b06ead3c1af3950cctmp
+[27-Oct-2025 07:19:18 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:19:18 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:19:19 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:19:20 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:20:11 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:20:12 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:20:13 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:20:13 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:20:38 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:20:38 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:20:40 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:20:40 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:20:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0e6576a4baf107629ab262c613d67351tmp
+[27-Oct-2025 07:20:52 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c2e890ae99138df09dfdbe31df32ce32tmp
+[27-Oct-2025 07:22:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ebf699d3126756e79f9393a82f3e3cb7tmp
+[27-Oct-2025 07:22:53 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f71315022a5412b1d7e5a5f855358a8atmp
+[27-Oct-2025 07:23:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\22739874a28f505d99e5dd7e8a60c01ctmp
+[27-Oct-2025 07:23:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e36a7a7960e92059f4fe01e5d0510c7btmp
+[27-Oct-2025 07:24:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e3df89032b382b2f39e0f3165f3c0e22tmp
+[27-Oct-2025 07:24:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bb29629ac57a98dab2586349fc66b972tmp
+[27-Oct-2025 07:24:13 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5efab24f008e5f3addaffcda8d0ec874tmp
+[27-Oct-2025 07:24:14 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d4f028449ddf09d585d44d216259773ctmp
+[27-Oct-2025 07:24:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f2295dd7839f2358f9de0478a725f69etmp
+[27-Oct-2025 07:24:19 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ea16fdd064d8ad0d043dd8f646a01581tmp
+[27-Oct-2025 07:24:24 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:24:24 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:24:24 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1932a18f7df583d70407fbe4cf6150a3tmp
+[27-Oct-2025 07:24:24 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c2d1a40b4cc27e875d03d847c4ecdcb7tmp
+[27-Oct-2025 07:24:26 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:24:26 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:25:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8769fbb70257fcdbbdaf78e87d69e4f1tmp
+[27-Oct-2025 07:25:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c16edcd9ebca987ac92fc6cd4567464atmp
+[27-Oct-2025 07:26:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\38c0c0b21e79beaf9bb3d019a81e9d8atmp
+[27-Oct-2025 07:26:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4815608614efda3229595e09a14328ectmp
+[27-Oct-2025 07:26:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\40f6aa6387547a3a494f6fd3b95d9985tmp
+[27-Oct-2025 07:26:25 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d63050adaba6acf8587f08d4d5a96336tmp
+[27-Oct-2025 07:26:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fc97dab01f02777774c4bc87e7b72362tmp
+[27-Oct-2025 07:26:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0cb013506d40bc8eb8f5fb7fb7e91317tmp
+[27-Oct-2025 07:26:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c55de902382b54092cf4b576b884decbtmp
+[27-Oct-2025 07:26:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6ebf1cf6fce5c89d16a5ac67b4daf55btmp
+[27-Oct-2025 07:26:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc80c3fa8b6fb9e70aacb63bbad181c9tmp
+[27-Oct-2025 07:26:40 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e8d94ac495b42d6b3cc2ff1c5a9ed756tmp
+[27-Oct-2025 07:26:43 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:26:43 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:26:44 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:26:45 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:27:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0c6863270340e8581b406da6fb77dfadtmp
+[27-Oct-2025 07:27:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\beeefc38052d001dd4ccedc455d3ae60tmp
+[27-Oct-2025 07:27:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\105d31706017e889229dba3aca19ed68tmp
+[27-Oct-2025 07:27:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c7aa166f4ccc0f7ab9650d10c09dddbdtmp
+[27-Oct-2025 07:28:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\df9a105f927b6238c713124725b1b5f9tmp
+[27-Oct-2025 07:28:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\18efce98f51f514463e15219a9c78144tmp
+[27-Oct-2025 07:29:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e55f698bc314d5f6c09bb9f7efced0a9tmp
+[27-Oct-2025 07:29:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\23ec22e4aab14f6af22ce82de44c62b6tmp
+[27-Oct-2025 07:31:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8706f371aa9fec80f62ece15d462e5b2tmp
+[27-Oct-2025 07:31:41 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\116eea3dcf5f83d6dfea3c340abd6018tmp
+[27-Oct-2025 07:33:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3899d05545a6f462d2f08c73109b1adbtmp
+[27-Oct-2025 07:33:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d6cdd9e0d3e4cffbc37fa9558491bad4tmp
+[27-Oct-2025 07:34:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\432689567def3b16668f771980ac7ec5tmp
+[27-Oct-2025 07:34:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1d293db0c87bea6db59f31ae9c774616tmp
+[27-Oct-2025 07:34:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2c00d45584b86257d8ef17cf7fb70b9atmp
+[27-Oct-2025 07:34:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6cc87d2175b637253b9e0c37a76b3b6etmp
+[27-Oct-2025 07:34:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bfbbb469115aeb9f6cfb53089932b997tmp
+[27-Oct-2025 07:34:43 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\63e4214c235c07a35106c9d36435ee14tmp
+[27-Oct-2025 07:34:48 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\001cda03f758701e4547197b60f8d415tmp
+[27-Oct-2025 07:34:48 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ef29d406bb97dc50fc6105cbd26b0c13tmp
+[27-Oct-2025 07:34:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bd90834627e49205b54b0bba7811d7c4tmp
+[27-Oct-2025 07:34:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\eea17def638b397b87469555b9e098b1tmp
+[27-Oct-2025 07:35:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0ca29014e1baaebd469f90bf943b73b7tmp
+[27-Oct-2025 07:35:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bb462d7a79bc1fded84fcd05b72051b0tmp
+[27-Oct-2025 07:36:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\70161937ce0a4bbae077681b53bda745tmp
+[27-Oct-2025 07:36:54 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f73fe6611d7720ad395448d2254037d8tmp
+[27-Oct-2025 07:37:57 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:37:57 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:37:59 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:38:00 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:38:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3cc49d27fb4366dd18c308f562abe7e8tmp
+[27-Oct-2025 07:38:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7f9af30f3629c31229496bd1736b7472tmp
+[27-Oct-2025 07:38:07 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:38:07 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:38:08 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:38:08 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:38:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a747710912e775c03a426c368fbc006atmp
+[27-Oct-2025 07:38:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9e76498f7ef3f19e31c989c377eea95btmp
+[27-Oct-2025 07:40:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7f467dbdff962fd64e48f2aa450f63dctmp
+[27-Oct-2025 07:40:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3f7036f96003ab216461a1e18f5d1bb9tmp
+[27-Oct-2025 07:40:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a9dfbe728d88c58aa52d4586e91c84b9tmp
+[27-Oct-2025 07:40:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8bb7a5083f87a60d04f1d1b6fd65cc7ctmp
+[27-Oct-2025 07:41:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5bb60829622a67e338ff07ef37de611etmp
+[27-Oct-2025 07:41:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5405db9989e2603d12f69cf3b83bd08ctmp
+[27-Oct-2025 07:41:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\572489c1eb8490742ef8ce8323eb41d3tmp
+[27-Oct-2025 07:41:04 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\61a4507c378985c097f3f363f28c4c78tmp
+[27-Oct-2025 07:41:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f4064373c3ff8bf907af3631bbccb48ctmp
+[27-Oct-2025 07:41:10 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc8781af247168488ce7a76678392c33tmp
+[27-Oct-2025 07:41:10 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:10 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:14 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:15 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:16 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:18 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:18 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:19 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:20 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:22 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:23 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:24 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:27 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:27 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:27 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:27 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:28 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:28 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:28 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:28 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:31 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:41:31 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:41:32 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:41:32 UTC] PHP Deprecated:  Using ${var} in strings is deprecated, use {$var} instead in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\classes\API\REST\class-wpml-ate-proxy.php on line 128
+[27-Oct-2025 07:42:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\15d854887b89cf534f5769743c959c8ftmp
+[27-Oct-2025 07:42:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\85e2d0142c279903ad82f65ec1df522ftmp
+[27-Oct-2025 07:43:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:43:15 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:43:16 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:43:16 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:43:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d86098130e3a5c7f67676b6ca71ea42ctmp
+[27-Oct-2025 07:43:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ca7756952744cd609b4ad17f4b407280tmp
+[27-Oct-2025 07:44:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a3fbb5b6ac713d0c651b5a5fec3b5b56tmp
+[27-Oct-2025 07:44:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ae1814746e994a2d73cd4497fba255c8tmp
+[27-Oct-2025 07:46:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1558e0c1f9cfc89b0a3603f9e26ec00ctmp
+[27-Oct-2025 07:46:20 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\65631bac20fa894d7ae9c06efb6ef843tmp
+[27-Oct-2025 07:48:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f6fb361412b0766ce79a26ee10a32915tmp
+[27-Oct-2025 07:48:21 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f08a30ae26e435bba3f2780b2d6c4a74tmp
+[27-Oct-2025 07:48:50 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$configuration is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 37
+[27-Oct-2025 07:48:50 UTC] PHP Deprecated:  Creation of dynamic property Whip_RequirementsChecker::$messageManager is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\sitepress-multilingual-cms\vendor\yoast\whip\src\Whip_RequirementsChecker.php on line 38
+[27-Oct-2025 07:48:51 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:48:51 UTC] PHP Deprecated:  Creation of dynamic property simple_html_dom\simple_html_dom::$optional_closing_array is deprecated in C:\xampp\htdocs\minet-site-nou\wp-content\plugins\webp-express\vendor\kub-at\php-simple-html-dom-parser\src\KubAT\PhpSimple\lib\simple_html_dom.php on line 1489
+[27-Oct-2025 07:50:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8696189ee2755396cf4443ea9e7b7bb7tmp
+[27-Oct-2025 07:50:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8828f046fa09c636e7083fc9fa167843tmp
+[27-Oct-2025 07:52:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fffa00567ff6c2912b700c43217a02f0tmp
+[27-Oct-2025 07:52:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9d6b0406805982a673b0970e756b64ectmp
+[27-Oct-2025 07:54:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\cbb34822de4e6a4a981fa0504d57478atmp
+[27-Oct-2025 07:54:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6c655c219160d648c0d6858961b0124ftmp
+[27-Oct-2025 07:56:16 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c51f287873abb67527ee3f4d95ce158ctmp
+[27-Oct-2025 07:56:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ef8f312a0723f19e39cd9e61770d2b49tmp
+[27-Oct-2025 07:56:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\754912a8e8bc98224b94360a73f7c27ctmp
+[27-Oct-2025 07:56:44 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\74a931ee0c079ebb7c52b5d854c8efcdtmp
+[27-Oct-2025 07:56:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3fb03f83aeea78043ecd1fee36dc8ad7tmp
+[27-Oct-2025 07:56:49 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\62c1848789d0ef7f265a452703f26b75tmp
+[27-Oct-2025 07:57:06 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bc6bdf2762f5c6f0708ef607c7c9c6a0tmp
+[27-Oct-2025 07:57:06 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c1a09a78394daa21a3aa233d7e2d85edtmp
+[27-Oct-2025 07:57:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f320038da9cfec6c1c288e677f74b089tmp
+[27-Oct-2025 07:57:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d1e5ae262a35cef0207aa6d9198e2c8btmp
+[27-Oct-2025 07:58:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b25abffd0ee7be7357491ce3d8163e6dtmp
+[27-Oct-2025 07:58:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d1fb061fb7ac5f804466bfa4c9935485tmp
+[27-Oct-2025 08:00:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ff67f21dcf6479bbbf7140f6140dd1c8tmp
+[27-Oct-2025 08:00:29 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6ac579292e65f86cdae044b507333f1atmp
+[27-Oct-2025 08:02:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\20a48267f76c7d0b3245a0ddfaf0bb78tmp
+[27-Oct-2025 08:02:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ef7e2cd65b1a4cbcf508845f1d23d44btmp
+[27-Oct-2025 08:04:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a60d81d5c3dfa23dca32833aee5136b4tmp
+[27-Oct-2025 08:04:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\10a4ca8d0d58ec9c5d89eaa4b2168e1ctmp
+[27-Oct-2025 08:06:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\910b5027573778b9b7289be15c74b7a0tmp
+[27-Oct-2025 08:06:33 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b3e5bda6adfca0be9b05d11c14240d93tmp
+[27-Oct-2025 08:08:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7381b62823b7b6a86f58ba6623160f32tmp
+[27-Oct-2025 08:08:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1e9527b8854c7de50a77f444daa5f4cdtmp
+[27-Oct-2025 08:08:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6e52c49325158fdafc56448748c8bd60tmp
+[27-Oct-2025 08:08:18 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\60668feafce7844d26ed499301e65347tmp
+[27-Oct-2025 08:09:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2cfbe1d650d29fc392fb1a38ebeaad19tmp
+[27-Oct-2025 08:09:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\183c615c84695e0e29fc3b82e050d81ftmp
+[27-Oct-2025 08:09:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\582de436183ac03b8f97343302abf1a2tmp
+[27-Oct-2025 08:09:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f8d0d1ddaea82d4b19ec61810972995ftmp
+[27-Oct-2025 08:09:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fe130e6a90bf996b5c601889c14afa81tmp
+[27-Oct-2025 08:09:55 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1673e195ed9af2a148582b508a468a95tmp
+[27-Oct-2025 08:13:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\4028505a0a12a6b6e0f6e4ac1a4f6121tmp
+[27-Oct-2025 08:13:22 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f42106217a1bba92091c6fc419c6a7f5tmp
+[27-Oct-2025 08:13:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\16530cde7e3afcb75e01dfe8b8021d1ftmp
+[27-Oct-2025 08:13:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\93e1a2b0e809a459b02afe952991abd7tmp
+[27-Oct-2025 08:13:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3bf27541bd49a44ce3b646ee57f8738btmp
+[27-Oct-2025 08:13:30 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ddbf883959841e1e8eb5383c4007423dtmp
+[27-Oct-2025 08:14:34 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b461a9af3a82721bd5165a8609e0ec7etmp
+[27-Oct-2025 08:14:35 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a5501f3516d58861f05ea58cd80dbae6tmp
+[27-Oct-2025 08:15:11 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c8db50ee968dd3f76844a608c65b6f59tmp
+[27-Oct-2025 08:15:11 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b272f1063de030a0a5d29579669531bbtmp
+[27-Oct-2025 08:15:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b978dd24c1c3b1c931114491eadf6e4ctmp
+[27-Oct-2025 08:15:15 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\11ba5c206a215f1b71777ee4676a7053tmp
+[27-Oct-2025 08:15:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\8484c55ae29ebae6b29ba13927ae1cbbtmp
+[27-Oct-2025 08:15:26 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2fc45b02d39f1ddd0a8e6bc775d8ba39tmp
+[27-Oct-2025 08:15:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\0e9b87e5611350f5f8caf37813e12418tmp
+[27-Oct-2025 08:15:31 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\486f058637ccf74511cec5931f5f6bc1tmp
+[27-Oct-2025 08:15:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\30648eef54d6c7f2312adf1f88831417tmp
+[27-Oct-2025 08:15:46 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\940c3bcad210b8de702e8221c89d46cdtmp
+[27-Oct-2025 08:16:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9b226b33faecbdd2624242b46cab1510tmp
+[27-Oct-2025 08:16:36 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9c3023dad68f43f75ce7f5b90c0be685tmp
+[27-Oct-2025 08:16:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fc29f87627e38b836daeab3f54ea8d52tmp
+[27-Oct-2025 08:16:56 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\a52d7afa52bbe932c4e714e96324dc04tmp
+[27-Oct-2025 08:17:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c2006ef03dd97d24c2471f6455dcc824tmp
+[27-Oct-2025 08:17:01 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1bec191b6397639383ac7e1f14bd80e8tmp
+[27-Oct-2025 08:17:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c713a9d31fdd25f8fe696164261b38c7tmp
+[27-Oct-2025 08:17:17 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1c35def524fbafb5512cf53af7155c53tmp
+[27-Oct-2025 08:17:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7f265d61cefd3291b65d5c6eeab5d408tmp
+[27-Oct-2025 08:17:32 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e764a3550190614b7884351dcd926b58tmp
+[27-Oct-2025 08:18:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\65dda9a680967d19fb386473bd790efftmp
+[27-Oct-2025 08:18:03 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\734a0fc0dc273202adff46c0ce93b4fatmp
+[27-Oct-2025 08:18:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\c60050e9bc0cc71a122db8ce92e44434tmp
+[27-Oct-2025 08:18:05 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\76f6bc1278a81989e84eb093187cd371tmp
+[27-Oct-2025 08:18:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3fa72c7d2375c89afe44d6b90f6f6294tmp
+[27-Oct-2025 08:18:09 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\7b36dc34f28eb53bbf861bc223303034tmp
+[27-Oct-2025 08:18:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\bdf85a20893277a367c413cc07d747c5tmp
+[27-Oct-2025 08:18:23 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\68c2c82433931b9beef56fb7a80e1a4etmp
+[27-Oct-2025 08:18:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ec58050d7852e634c208d650fae2d176tmp
+[27-Oct-2025 08:18:27 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3cddbbe571d1cbcb0b06099d0f7ec69dtmp
+[27-Oct-2025 08:18:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\58125c50a8eede349393ab918cb53805tmp
+[27-Oct-2025 08:18:28 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3751e42bc873fb0fc934b1d3ef5dcc34tmp
+[27-Oct-2025 08:18:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\b7edcef4d613247080154ec712ee4b50tmp
+[27-Oct-2025 08:18:38 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fd2e1ebb46f7a7f561dec18a6ee9809etmp
+[27-Oct-2025 08:18:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\1b695631a1e438cb9b3b705e1f225813tmp
+[27-Oct-2025 08:18:42 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\aa7ef68af18aa1c137b53004e78faa58tmp
+[27-Oct-2025 08:18:51 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d821611147a147f5a88e64271086cf88tmp
+[27-Oct-2025 08:18:51 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\3916663f819961c47e39a3f0facff792tmp
+[27-Oct-2025 08:18:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\e1b84e3da360d62426dbe43b66f7370dtmp
+[27-Oct-2025 08:18:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\89a9a144b3341f390c33541f7d5d65d0tmp
+[27-Oct-2025 08:19:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\407b4d6e5944c34ae3f8576a7e10da61tmp
+[27-Oct-2025 08:19:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\6f3d055e504d0454d4de3d44a24c4cdetmp
+[27-Oct-2025 08:20:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\2eeaa9b1e7d26e2e8978bc93afd2e4bctmp
+[27-Oct-2025 08:20:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\5917faf32a712026d77f9833bcf80455tmp
+[27-Oct-2025 08:21:57 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f8d62cb2e33d2f5e3142c6b86d5053e9tmp
+[27-Oct-2025 08:21:58 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\9e9393d2286a7e64a2bffd648da0b3detmp
+[27-Oct-2025 08:23:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\d18d711f246b35f76c35df03f31bb1b6tmp
+[27-Oct-2025 08:23:59 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\fe15ecc2d3ae09acbb27b751619ee8b2tmp
+[27-Oct-2025 08:26:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\ae41b8a257264e36d2f1b2e5eb1a7220tmp
+[27-Oct-2025 08:26:00 UTC] Path is outside resolved document root (C:\xampp\htdocs). input:C:\Users\alin.sofianu\AppData\Local\Temp\f513eb8f921dd01dcdea58277eed395ftmp
