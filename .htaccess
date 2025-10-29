@@ -1,5 +1,14 @@
 # This file was updated by Duplicator on 2025-10-23 11:07:20.
 # See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WebP Express
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_ACCEPT} image/webp
+RewriteCond %{REQUEST_FILENAME} (.*)\.(jpe?g|png)$
+RewriteCond %{DOCUMENT_ROOT}/wp-content/webp-express/webp-images%{REQUEST_URI}.webp -f
+RewriteRule (.+)\.(jpe?g|png)$ /wp-content/webp-express/webp-images%{REQUEST_URI}.webp [T=image/webp,L]
+</IfModule>
+# END WebP Express
 # BEGIN WordPress
 # Directivele (liniile) între „BEGIN WordPress” și „END WordPress” sunt
 # generate dinamic și ar trebui modificate numai prin filtrele WordPress.

@@ -3,3 +3,50 @@ Theme Name:   Minet Theme Child
 Template:     minet-theme
 Version:      1.0
 */
+/* Footer START */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;    
+}
+
+.footer-right li a {
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-right li a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    justify-content: space-around;
+}
+
+.footer-socials img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.footer-left a img {
+    width: 100%;
+}
+/* Footer END */
