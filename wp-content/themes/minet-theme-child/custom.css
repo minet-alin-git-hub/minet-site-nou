@@ -7,7 +7,7 @@ Version:      1.0
 /* Loaded last (all child overrides, highest priority) */
 
 /* Footer START */
-.footer-columns {
+/* .footer-columns {
   display: flex;
   justify-content: space-between;
   gap: 100px;
@@ -56,7 +56,47 @@ Version:      1.0
 
 .footer-left a img {
   width: 100%;
+} */
+footer {
+  background: #111;
+  color: #fff;
+  font-size: 14px;
 }
+.footer-top,
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer-top-right {
+  display: flex;
+  gap: 40px;
+}
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-column ul li {
+  margin-bottom: 6px;
+}
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-socials a {
+  margin-left: 10px;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
+
 /* Footer END */
 
 /* Internal Navigation Links START info_boxes li a: */
