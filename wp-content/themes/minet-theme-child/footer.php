@@ -8,24 +8,36 @@
 		</div>
 		<div class="footer-top-right">
 			<div class="footer-column">
-				<h4>Column 1</h4>
+				<h4>Aplicații</h4>
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Automotive</a></li>
+					<li><a href="#">Constructii</a></li>
+					<li><a href="#">Confectii</a></li>
+					<li><a href="#">Igiena</a></li>
+					<li><a href="#">Mobila</a></li>
+					<li><a href="#">Bedding</a></li>
 				</ul>
 			</div>
 			<div class="footer-column">
-				<h4>Column 2</h4>
+				<h4>Produse</h4>
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Automotive</a></li>
+					<li><a href="#">Constructii</a></li>
+					<li><a href="#">Confectii</a></li>
+					<li><a href="#">Igiena</a></li>
+					<li><a href="#">Mobila</a></li>
+					<li><a href="#">Bedding</a></li>
 				</ul>
 			</div>
 			<div class="footer-column">
-				<h4>Column 3</h4>
+				<h4>Tehnologii</h4>
 				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Automotive</a></li>
+					<li><a href="#">Constructii</a></li>
+					<li><a href="#">Confectii</a></li>
+					<li><a href="#">Igiena</a></li>
+					<li><a href="#">Mobila</a></li>
+					<li><a href="#">Bedding</a></li>
 				</ul>
 			</div>
 		</div>
