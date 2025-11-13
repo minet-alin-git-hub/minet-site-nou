@@ -11,7 +11,7 @@
       <ul class="info_boxes">
         <?php foreach ($args->list as $key => $value): ?>
           <li>
-            <?php if (!empty($value['image'])) echo wp_get_attachment_image($value['image']['ID'], 'full'); ?>
+            <?php if (!empty($value['image'])) echo wp_get_attachment_image($value['image']['ID'], 'full', false, ['class' => 'info-image']); ?>
             <div class="info-content">
               <h3 data-inViewport="changeColor" style="animation-delay:<?php echo $key * 1000 / 2; ?>ms;"><?php echo $value['title']; ?></h3>
               <div class="info"><?php echo $value['info']; ?></div>
