@@ -32,12 +32,20 @@ else{
 	$form_list = vsz_cf7_get_the_form_list();
 	$url = '';
 	$fid = '';
+	//Define nonce values here
+	$entry_nonce = wp_create_nonce('import-cf7-save-entry-nonce');
 
+	if(!wp_verify_nonce($entry_nonce, 'import-cf7-save-entry-nonce' )){
+		echo esc_html('You have no permission to access this page');
+		return;
+	}
+	
 	//Get selected form Id value
 	if(isset($_GET['import_cf7_id']) && !empty($_GET['import_cf7_id'])){
 
 		$fid = intval(sanitize_text_field($_GET['import_cf7_id']));
 		if (!cf7_check_capability('cf7_db_form_view'.$fid) && !cf7_check_capability('cf7_db_form_edit_'.$fid)){
+			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			wp_die( __('You do not have sufficient permissions to access this page.') );
 		}
 		$menu_url = menu_page_url('import_cf7_csv',false);
@@ -52,8 +60,7 @@ else{
 	$msg = '';
 	/************* Save CSV file related key names ******************/
 
-	//Define nonce values here
-	$entry_nonce = wp_create_nonce('import-cf7-save-entry-nonce');
+
 
 	$arr_form_match_key = '';
 	//Get form related option values
@@ -80,9 +87,10 @@ else{
 								foreach($form_list as $objForm){
 									if (cf7_check_capability('cf7_db_form_view'.$objForm->id()) || cf7_check_capability('cf7_db_form_edit_'.$objForm->id())){
 										if(!empty($fid) && $fid === $objForm->id())
+											// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 											print '<option value="'.$objForm->id().'" selected>'.esc_html($objForm->title()).'</option>';
 										else
-											print '<option value="'.$objForm->id().'" >'.esc_html($objForm->title()).'</option>';
+											print '<option value="'.$objForm->id().'" >'.esc_html($objForm->title()).'</option>';// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 									}
 								}
 							}
@@ -151,6 +159,7 @@ else{
 														//Add filter for customize date option values
 														$arr_date_format = (array) apply_filters('vsz_cf7_import_date_format', vsz_cf7_import_date_format_callback());
 															//Get all date format options
+														// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 														echo vsz_cf7_arr_to_option($arr_date_format);
 													?></select>
 													<br><?php esc_html_e('Note:',VSZ_CF7_TEXT_DOMAIN); ?><br/><span><?php esc_html_e('If selected date format isn\'t matched with import sheet entry then consider today date.',VSZ_CF7_TEXT_DOMAIN); ?></span>

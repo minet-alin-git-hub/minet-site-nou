@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configuration for WordPress
  *
@@ -20,22 +21,22 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "minet-site-now_db" );
+define('DB_NAME', "minet-site-now_db");
 
 /** Database username */
-define( 'DB_USER', "root" );
+define('DB_USER', "root");
 
 /** Database password */
-define( 'DB_PASSWORD', "" );
+define('DB_PASSWORD', "");
 
 /** Database hostname */
-define( 'DB_HOST', "localhost" );
+define('DB_HOST', "localhost");
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define('DB_CHARSET', 'utf8mb4');
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication unique keys and salts.
@@ -48,14 +49,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'nJBo;n#{@ 5R|`Vyq#.S.%T9$CUZ0kUp:4>J&}fk&c#5w/@qV$HrgDp-Z(= 1-j$' );
-define( 'SECURE_AUTH_KEY',  '%]4T&g>tLi`2<}c7>ujO5axGUk{WAfB3-81)%LJE5^X%Y3jml@(V2kkpM6JzY~WQ' );
-define( 'LOGGED_IN_KEY',    'Aj|)V#;YC1CXk8WrytaLk.{*uq.I=@%4FR#Y~qc)%j*q$iB~G5^RY9jkh}}C ABF' );
-define( 'NONCE_KEY',        'RDC74_|#_hvY$ygr7/L8p;t(Qb[[!h/Gm<:xsy8ur72TA5QhEs~zx@5[cF7FMV~X' );
-define( 'AUTH_SALT',        'NLxA4McFnlitw`:58R1|:$73a-NNd%g$q0ERC!,XA;u:.o&N=ZdWMhXFsq)_]$:V' );
-define( 'SECURE_AUTH_SALT', 'XI#Hc|fw&W}z9&|]S:a~;J*,6d;@F47W}k)yjF:v_/}oM:Tiv$l4r8Yy-[ZOlX+k' );
-define( 'LOGGED_IN_SALT',   'B&Rm0MlV;2u[LEg9K[/SdrZ?ReUl6V/<ePQ;2_yjVZKkF|U:mNwrAEX,=}6am.e/' );
-define( 'NONCE_SALT',       '{r6amu6W33E;) tz#%>r@T <!H6|,Pn(H*pj$a-h(L1%sygKeD EgwHV@Z2e&nX4' );
+define('AUTH_KEY',         'nJBo;n#{@ 5R|`Vyq#.S.%T9$CUZ0kUp:4>J&}fk&c#5w/@qV$HrgDp-Z(= 1-j$');
+define('SECURE_AUTH_KEY',  '%]4T&g>tLi`2<}c7>ujO5axGUk{WAfB3-81)%LJE5^X%Y3jml@(V2kkpM6JzY~WQ');
+define('LOGGED_IN_KEY',    'Aj|)V#;YC1CXk8WrytaLk.{*uq.I=@%4FR#Y~qc)%j*q$iB~G5^RY9jkh}}C ABF');
+define('NONCE_KEY',        'RDC74_|#_hvY$ygr7/L8p;t(Qb[[!h/Gm<:xsy8ur72TA5QhEs~zx@5[cF7FMV~X');
+define('AUTH_SALT',        'NLxA4McFnlitw`:58R1|:$73a-NNd%g$q0ERC!,XA;u:.o&N=ZdWMhXFsq)_]$:V');
+define('SECURE_AUTH_SALT', 'XI#Hc|fw&W}z9&|]S:a~;J*,6d;@F47W}k)yjF:v_/}oM:Tiv$l4r8Yy-[ZOlX+k');
+define('LOGGED_IN_SALT',   'B&Rm0MlV;2u[LEg9K[/SdrZ?ReUl6V/<ePQ;2_yjVZKkF|U:mNwrAEX,=}6am.e/');
+define('NONCE_SALT',       '{r6amu6W33E;) tz#%>r@T <!H6|,Pn(H*pj$a-h(L1%sygKeD EgwHV@Z2e&nX4');
 
 /**#@-*/
 
@@ -81,9 +82,11 @@ $table_prefix = 'wp_';
  */
 
 // Enable debugging but hide deprecated notices
+define('SAVEQUERIES', false);
 define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
-define('WP_DEBUG_LOG', true);
+
 
 // Suppress deprecated warnings (PHP 8+)
 error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
@@ -91,14 +94,14 @@ error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-define('WP_HOME','http://192.168.11.39/minet-site-nou');
-define('WP_SITEURL','http://192.168.11.39/minet-site-nou');
+define('WP_HOME', 'http://192.168.11.39/minet-site-nou');
+define('WP_SITEURL', 'http://192.168.11.39/minet-site-nou');
 
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname(__FILE__) . '/' );
+if (! defined('ABSPATH')) {
+	define('ABSPATH', dirname(__FILE__) . '/');
 }
 
 /** Sets up WordPress vars and included files. */

@@ -2,9 +2,7 @@
 
 use Duplicator\Core\Controllers\ControllersManager;
 use Duplicator\Libs\Snap\SnapJson;
-use Duplicator\Installer\Utils\LinkManager;
-use Duplicator\Utils\Upsell;
-use Duplicator\Views\ViewHelper;
+use Duplicator\Utils\LinkManager;
 use Duplicator\Core\Notifications\Notifications;
 
 defined('ABSPATH') || defined('DUPXABSPATH') || exit;
@@ -171,7 +169,7 @@ if (DUP_Settings::Get('installer_name_mode') == DUP_Settings::INSTALLER_NAME_MOD
                                     esc_html_e('Duplicator Lite does not officially support WordPress multisite.', 'duplicator');
                                     echo "<br/>";
                                     esc_html_e('We strongly recommend upgrading to ', 'duplicator');
-                                    echo "&nbsp;<i><a href='" . esc_url(Upsell::getCampaignUrl('packages-list', "Mutlisite no packages")) . "' target='_blank'>[" . esc_html__('Duplicator Pro', 'duplicator') . "]</a></i>.";
+                                    echo "&nbsp;<i><a href='" . esc_url(LinkManager::getCampaignUrl('packages-list', "Mutlisite no packages")) . "' target='_blank'>[" . esc_html__('Duplicator Pro', 'duplicator') . "]</a></i>.";
                                     echo '</div>';
                             }
                             ?>
@@ -328,18 +326,10 @@ if (DUP_Settings::Get('installer_name_mode') == DUP_Settings::INSTALLER_NAME_MOD
                 <tr>
                     <th colspan="11">
                         <div class="sc-footer-left">
-                            <?php
-                            if (DUP_Settings::Get('trace_log_enabled')) {
+                            <?php if (DUP_Settings::Get('trace_log_enabled')) {
                                 esc_html_e("Trace Logging Enabled.  Please disable when trace capture is complete.", 'duplicator');
                                 echo '<br/>';
-                            }
-                            if ($is_mu) {
-                                esc_html_e('Duplicator Lite does not officially support WordPress multisite.', 'duplicator');
-                                echo '<br/>';
-                                esc_html_e('We strongly recommend using', 'duplicator');
-                                echo "&nbsp;<i><a href='" . esc_url(Upsell::getCampaignUrl('packages-list', "Mutlisite bottom package list")) . "' target='_blank'>[" . esc_html__('Duplicator Pro', 'duplicator') . "]</a></i>.";
-                            }
-                            ?>
+                            } ?>
                         </div>
                         <div class="sc-footer-right">
                            <span style="cursor:help" title="<?php esc_attr_e("Current Server Time", 'duplicator') ?>">

@@ -1,7 +1,8 @@
 <?php
 
+use Duplicator\Core\Controllers\ControllersManager;
 use Duplicator\Core\Views\TplMng;
-use Duplicator\Utils\Upsell;
+use Duplicator\Utils\LinkManager;
 
 defined('ABSPATH') || defined('DUPXABSPATH') || exit;
 ?>
@@ -71,7 +72,7 @@ defined('ABSPATH') || defined('DUPXABSPATH') || exit;
     div.dup-install-prefill-tab-pnl {min-height:180px !important; }
 </style>
 <?php
-$action_url       = admin_url("admin.php?page=duplicator&tab=new2&retry={$retry_state}");
+$action_url       = ControllersManager::getMenuLink(ControllersManager::PACKAGES_SUBMENU_SLUG, 'new2', null, ['retry' => $retry_state]);
 $action_nonce_url = wp_nonce_url($action_url, 'new2-package');
 $storage_position = DUP_Settings::Get('storage_position');
 ?>
@@ -158,7 +159,7 @@ STORAGE -->
                                     '<i class="fas fa-network-wired fa-fw"></i>&nbsp;' . 'FTP/SFTP'
                                 );
                         ?>
-                                <a href="<?php echo esc_url(Upsell::getCampaignUrl('package-build-setup', 'Additional Storages')); ?>" target="_blank">
+                                <a href="<?php echo esc_url(LinkManager::getCampaignUrl('package-build-setup', 'Additional Storages')); ?>" target="_blank">
                                     <?php esc_html_e('Duplicator Pro', 'duplicator');?>
                                 </a>
                                 <i class="fas fa-question-circle"
@@ -244,7 +245,7 @@ ARCHIVE -->
                     </div>
                     <div class="dup-tbl-scroll">
                     <?php
-                        $tables    = $wpdb->get_results("SHOW FULL TABLES FROM `" . DB_NAME . "` WHERE Table_Type = 'BASE TABLE' ", ARRAY_N);
+                        $tables    = $wpdb->get_results("SHOW FULL TABLES FROM `" . esc_sql(DB_NAME) . "` WHERE Table_Type = 'BASE TABLE' ", ARRAY_N);
                         $num_rows  = count($tables);
                         $next_row  = round($num_rows / 4, 0);
                         $counter   = 0;
@@ -352,7 +353,7 @@ ARCHIVE -->
                 <p>
                     <?php _e('Protect and secure the Backup file with industry-standard AES-256 encryption.', 'duplicator'); ?>
                 </p>
-                <a href="<?php echo esc_url(Upsell::getCampaignUrl('package_build-securit_tab', 'Upgrade To Pro')); ?>"
+                <a href="<?php echo esc_url(LinkManager::getCampaignUrl('package_build-securit_tab', 'Upgrade To Pro')); ?>"
                    class="dup-btn dup-btn-md dup-btn-green"
                    target="_blank">
                     <?php _e('Upgrade To Pro', 'duplicator'); ?>
@@ -402,7 +403,7 @@ INSTALLER -->
         <tr>
             <td style="width:130px;"><b><?php esc_html_e("Branding", 'duplicator') ?></b></td>
             <td>
-                <a href="<?php echo esc_url(Upsell::getCampaignUrl('package-build-setup', 'Installer Branding')); ?>" target="_blank">
+                <a href="<?php echo esc_url(LinkManager::getCampaignUrl('package-build-setup', 'Installer Branding')); ?>" target="_blank">
                     <span class="dup-pro-text"><?php esc_html_e('Available with Duplicator Pro!', 'duplicator'); ?></span></a>
                 <i class="fas fa-question-circle fa-sm"
                        data-tooltip-title="<?php esc_attr_e("Branding", 'duplicator'); ?>:"
@@ -543,7 +544,7 @@ INSTALLER -->
                     <img src="<?php echo esc_url(DUPLICATOR_PLUGIN_URL . "assets/img/cpanel-48.png"); ?>" style="width:16px; height:12px" />
                     <?php esc_html_e("Create the database and database user at install time without leaving the installer!", 'duplicator'); ?><br/>
                     <?php esc_html_e("This feature is only availble in ", 'duplicator'); ?>
-                    <a href="<?php echo esc_url(Upsell::getCampaignUrl('package-build-setup', 'cPanel')); ?>" target="_blank">
+                    <a href="<?php echo esc_url(LinkManager::getCampaignUrl('package-build-setup', 'cPanel')); ?>" target="_blank">
                         <?php esc_html_e('Duplicator Pro!', 'duplicator');?>
                     </a><br/>
                     <small><i><?php esc_html_e("This feature works only with hosts that support cPanel.", 'duplicator'); ?></i></small>

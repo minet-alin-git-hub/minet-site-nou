@@ -1,7 +1,7 @@
 <?php
 
-use Duplicator\Installer\Utils\LinkManager;
-use Duplicator\Utils\Upsell;
+use Duplicator\Core\Controllers\ControllersManager;
+use Duplicator\Utils\LinkManager;
 use Duplicator\Views\EducationElements;
 use Duplicator\Views\AdminNotices;
 
@@ -125,7 +125,10 @@ TOOL BAR:STEPS -->
                 </a>
             </span>
             <?php
-            $package_url       = admin_url('admin.php?page=duplicator&tab=new1');
+            $package_url       = ControllersManager::getMenuLink(
+                ControllersManager::PACKAGES_SUBMENU_SLUG,
+                'new1'
+            );
             $package_nonce_url = wp_nonce_url($package_url, 'new1-package');
             ?>
             <a id="dup-create-new"
@@ -225,7 +228,7 @@ TOOL BAR:STEPS -->
                 esc_html_e('Notice:Duplicator Lite does not officially support WordPress multisite.', 'duplicator');
                 echo "<br/>";
                 esc_html_e('We strongly recommend upgrading to ', 'duplicator');
-                echo "&nbsp;<i><a href='" . esc_url(Upsell::getCampaignUrl('package-build-complete', 'Multisite Get Pro')) . "' target='_blank'>[" . esc_html__('Duplicator Pro', 'duplicator') . "]</a></i>.";
+                echo "&nbsp;<i><a href='" . esc_url(LinkManager::getCampaignUrl('package-build-complete', 'Multisite Get Pro')) . "' target='_blank'>[" . esc_html__('Duplicator Pro', 'duplicator') . "]</a></i>.";
                 echo '</div>';
             }
             ?>
@@ -321,7 +324,7 @@ TOOL BAR:STEPS -->
                                     '1: opening link tag, 2: closing link tag (<a></a>)',
                                     'duplicator'
                                 ),
-                                '<a href="' . esc_url(Upsell::getCampaignUrl('package-build-complete', 'Build Failed Get Pro')) . '" target="_blank">',
+                                '<a href="' . esc_url(LinkManager::getCampaignUrl('package-build-complete', 'Build Failed Get Pro')) . '" target="_blank">',
                                 '</a>'
                             );
                             ?>
