@@ -442,19 +442,18 @@ footer .footer-main {
   flex-direction: column;
   background: linear-gradient(
     12deg,
-    rgba(160, 50, 40, 1) 0%,
+    rgba(153, 51, 51, 0.7) 0%,
     rgba(38, 36, 37, 0.9) 40%
   );
-  border: 1px solid #958559;
+  border: 1px solid rgba(149, 133, 89, 0.5);
   border-radius: 4px;
 }
 .applications .applications_item .info_box > h2 {
   font-weight: 500;
   letter-spacing: 1px;
-  border-bottom: 2px solid rgb(229, 0, 23);
+  border-bottom: 2px solid rgba(229, 0, 23, 0.8);
   width: max-content;
   max-width: -webkit-fill-available;
-  max-width: fill;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
@@ -472,21 +471,25 @@ footer .footer-main {
     1px 1px 0 #000;
 }
 
+.applications .applications_item img {
+  height: 520px;
+  border-radius: 18px;
+}
+
 .applications .slick-dots li {
-  border-right: 2px solid #fff;
+  /* border-right: 2px solid #fff; */
+  border-right: none;
 }
 
 .applications .slick-dots li button {
-  font-size: 18px;
-  font-weight: 600;
   letter-spacing: 1px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
 .applications .slick-dots li button:before {
-  height: 3px;
-  bottom: -5px;
+  height: 0px;
+  bottom: -1px;
 }
 
 .applications .applications_item {
@@ -500,13 +503,17 @@ footer .footer-main {
 }
 
 .applications .slider-arrow.next-arrow {
-  right: 0px;
-  border-radius: 50%;
+  right: 4%;
+  top: 23%;
+  border-radius: 15%;
+  opacity: 80%;
 }
 
 .applications .slider-arrow.prev-arrow {
-  right: 0px;
-  border-radius: 50%;
+  left: 4%;
+  top: 23%;
+  border-radius: 15%;
+  opacity: 80%;
 }
 
 .applications .slider-arrow svg {
@@ -516,13 +523,16 @@ footer .footer-main {
 
 .applications .slider-arrow:hover {
   background: #c42b1c;
+  opacity: 95%;
 }
 
 .slick-slider .slick-list img {
-  border: 1px solid #958559;
-  border-radius: 4px;
+  /* border: 1px solid rgba(149, 133, 89, 0.5); */
+  border-radius: 8px;
 }
-
+.slick-list {
+  border-radius: 8px;
+}
 .aplicatie .applications .stroke {
   mix-blend-mode: overlay;
 }
@@ -552,7 +562,7 @@ footer .footer-main {
 /* END image + desc section */
 /* START Vertical spacing */
 .container {
-  margin: 20px auto;
+  /* margin: 20px auto; */
 }
 /* END Vertical spacing */
 
@@ -697,6 +707,7 @@ header .main-menu li a:hover {
 .numbers .numbers_container {
   margin-bottom: inherit;
 }
+
 /* MISC FIXES END */
 /* BACKGROUND NOISE START */
 section {
@@ -722,3 +733,108 @@ section > .numbers {
   background-size: auto;
 }
 /* BACKGROUND NOISE END */
+/* Subpages first text START */
+.center-info .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.center-info .info p:nth-child(1) {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.center-info .info p:nth-child(2) {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: left;
+}
+.center-info .info p:nth-child(3) {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: left;
+}
+.center-info .info p:nth-child(4) {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: left;
+}
+/* Subpages first text END */
+.applications .slick-dots {
+  margin: 0 0 20px;
+  text-align: center;
+  list-style: none;
+  position: static;
+}
+.applications .slick-dots li {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0 !important;
+  border-bottom: 1px solid rgba(149, 133, 89, 0.5);
+}
+.applications .slick-dots li button {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: transparent;
+  font-weight: 500;
+  padding: 12px 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  /* transition: all 0.25s ease; */
+  position: relative;
+  background: rgba(224, 16, 30, 0.2);
+  margin-right: 6px;
+  text-transform: none;
+  border: 1px solid rgba(224, 16, 30, 0.5);
+  border-bottom: none;
+}
+.applications .slick-dots li button:hover {
+  background: rgba(224, 16, 30, 0.4);
+  border: 1px solid rgba(224, 16, 30, 0.8);
+  border-bottom: none;
+}
+.applications .slick-dots li.slick-active button {
+  color: #fff;
+  background: rgba(149, 133, 89, 0.5);
+  border: 1px solid rgba(149, 133, 89, 0.9);
+  border-bottom: none;
+}
+.applications .slick-dots li:last-child button {
+  margin-right: 0;
+}
+/* .applications .slick-dots li button:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 0%;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  transform: translateX(-50%);
+} */
+.applications .slick-dots li.slick-active button:after,
+.applications .slick-dots li button:hover:after {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .applications .slick-dots li {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .applications .slick-dots li button {
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    border-radius: 0;
+  }
+}
+/* Effect for scaling while clicking tabs on Aplicatii */
+.applications .slick-dots li button:active {
+  transform: scale(0.98);
+  transition: transform 0.05s ease;
+}
