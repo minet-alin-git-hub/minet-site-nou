@@ -30,15 +30,14 @@
   endif; ?>
 
   <?php
-  $button_group = get_field('ti_button'); // your ACF group with first and second button
+  $button_group = get_field('ti_button');
   if ($button_group):
-    get_template_part('template-parts/general/general-technology-applications', null, (object)[
+    get_template_part('template-parts/general/general-technologies-applications', null, (object)[
       'title' => get_field('section_title'),
       'info'  => get_field('section_info'),
       'buttons' => $button_group
     ]);
   endif;
   ?>
-
 </main>
 <?php get_footer(); ?>
