@@ -569,7 +569,7 @@ footer .footer-main {
 /* Main Navigation Menu START */
 header {
   padding: 0;
-  border-bottom: 1px solid #c1a16d;
+  box-shadow: 0px 0px 2px 0px #c1a16d;
 }
 
 header .main-menu > li {
@@ -707,7 +707,9 @@ header .main-menu li a:hover {
 .numbers .numbers_container {
   margin-bottom: inherit;
 }
-
+.header-banner {
+  height: 400px;
+}
 /* MISC FIXES END */
 /* BACKGROUND NOISE START */
 section {
