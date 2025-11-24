@@ -1,12 +1,14 @@
 <?php
-function child_enqueue_styles() {
+function child_enqueue_styles()
+{
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('child-style', get_stylesheet_uri(), ['parent-style']);
-    wp_enqueue_style('child-custom', get_stylesheet_directory_uri() . '/custom.css', ['parent-style','child-style','general']);
+    wp_enqueue_style('child-custom', get_stylesheet_directory_uri() . '/custom.css', ['parent-style', 'child-style', 'general']);
 }
 add_action('wp_enqueue_scripts', 'child_enqueue_styles', 20);
 
-function minet_child_register_tehnologie() {
+function minet_child_register_tehnologie()
+{
     $labels = array(
         'name' => 'Tehnologii',
         'singular_name' => 'Tehnologie',
@@ -18,17 +20,25 @@ function minet_child_register_tehnologie() {
         'labels' => $labels,
         'public' => true,
         'has_archive' => true,
-        'supports' => array('title','editor','thumbnail','excerpt'),
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest' => false
     );
     register_post_type('tehnologie', $args);
 }
 add_action('init', 'minet_child_register_tehnologie');
 
-function minet_enqueue_scroll_to_top() {
-    if(is_front_page()) {
+function minet_enqueue_scroll_to_top()
+{
+    if (is_front_page()) {
         wp_enqueue_script('minet-scroll-top', get_stylesheet_directory_uri() . '/js/scroll-top.js', array(), null, true);
         wp_enqueue_style('minet-scroll-top-style', get_stylesheet_directory_uri() . '/css/scroll-top.css');
     }
 }
 add_action('wp_enqueue_scripts', 'minet_enqueue_scroll_to_top');
+
+function minet_child_enqueue_tabs_assets()
+{
+    wp_enqueue_style('minet-tabs-css', get_stylesheet_directory_uri() . '/css/tabs.css', array(), null);
+    wp_enqueue_script('minet-tabs-js', get_stylesheet_directory_uri() . '/js/tabs.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'minet_child_enqueue_tabs_assets');

@@ -404,38 +404,6 @@ footer .footer-main {
   object-fit: cover;
 }
 /* Casute cu linkuri+text, puse in grid END */
-
-/* Box tehnical cu link START "PROCES SI DETALII TEHNICE" */
-.technology_applicatons .box {
-  outline: 1px solid #242223;
-  border-top: 12px solid #c42b1c;
-  padding: 60px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-}
-.technology_applicatons h2 {
-  color: #303030;
-  font-family: "Bebas Neue";
-  letter-spacing: 3px;
-  font-size: 42px;
-}
-
-.technology_applicatons .info {
-  font-weight: 600;
-  line-height: 1.5;
-  color: #303030;
-}
-
-.btn.default-btn span {
-  /* background-color:#e50017; */
-}
-.technology_applicatons .btn {
-  background-color: #c42b1c;
-}
-/* Box tehnical cu link END  "PROCES SI DETALII TEHNICE" */
-
 /* Slide Imagini START */
 .applications .applications_item .info_box {
   display: flex;
