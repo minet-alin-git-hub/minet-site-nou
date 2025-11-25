@@ -3,9 +3,13 @@
         <div class="container">
             <div class="box figure-shadow">
 
-                <?php if (!empty($args->title)): ?>
-                    <h2><?php echo $args->title; ?></h2>
-                <?php endif; ?>
+                <div>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/technical_specifications.png?nocache=1" alt="Technical Specifications">
+
+                    <?php if (!empty($args->title)): ?>
+                        <h2><?php echo $args->title; ?></h2>
+                    <?php endif; ?>
+                </div>
 
                 <?php if (have_rows('ti_tabs')): ?>
                     <div class="tabs-container">

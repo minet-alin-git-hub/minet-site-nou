@@ -34,8 +34,7 @@
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Geotextile</a></li>
 							<li><a href="#">Șervețele Umede</a></li>
-							<li><a href="#">Izolații Acustice - termice</a></li>
-							<li><a href="#">Termice</a></li>
+							<li><a href="#">Izolații Termice-Acustice-</a></li>
 							<li><a href="#">Vate Voluminoase</a></li>
 							<li><a href="#">Geosintetice</a></li>
 						</ul>
