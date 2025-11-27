@@ -1,26 +1,59 @@
-<?php if (!empty($args->title) || !empty($args->info)): ?>
+<?php if (!empty($args->title) || !empty($args->info) || !empty($args->button) || !empty($args->blocks)): ?>
     <section class="technology_applicatons one_image_screen h-align">
         <div class="container">
             <div class="box figure-shadow">
-                <?php if (!empty($args->title)): ?><h2><?php echo $args->title; ?></h2><?php endif; ?>
-                <?php if (!empty($args->info)): ?><p class="info"><?php echo $args->info; ?></p><?php endif; ?>
 
-                <?php
-                $buttons = $args->buttons;
-                $first_link = $buttons['link'] ?? '';
-                $first_label = $buttons['label'] ?? '';
-                $second_link = $buttons['second_button_link'] ?? '';
-                $second_label = $buttons['second_button_label'] ?? '';
-                ?>
+                <?php if (!empty($args->title)): ?>
+                    <h2><?php echo esc_html($args->title); ?></h2>
+                <?php endif; ?>
 
-                <div>
-                    <?php if ($first_link && $first_label): ?>
-                        <a href="<?php echo $first_link; ?>" class="btn default-btn"><span><?php echo $first_label; ?></span></a>
-                    <?php endif; ?>
-                    <?php if ($second_link && $second_label): ?>
-                        <a href="<?php echo $second_link; ?>" class="btn default-btn"><span><?php echo $second_label; ?></span></a>
-                    <?php endif; ?>
-                </div>
+                <?php if (!empty($args->info)): ?>
+                    <p class="info"><?php echo $args->info; ?></p>
+                <?php endif; ?>
+
+                <?php if (!empty($args->button['link']) && !empty($args->button['label'])): ?>
+                    <a href="<?php echo esc_url($args->button['link']); ?>" class="btn default-btn">
+                        <?php echo esc_html($args->button['label']); ?>
+                    </a>
+                <?php endif; ?>
+
+                <?php if (!empty($args->blocks)): ?>
+                    <?php foreach ($args->blocks as $block): ?>
+                        <?php
+                        $block_class = 'block-' . sanitize_title($block['block_title']);
+                        ?>
+                        <div class="block-header <?php echo esc_attr($block_class); ?>">
+                            <?php if (!empty($block['block_icon'])): ?>
+                                <img src="<?php echo esc_url($block['block_icon']['url']); ?>" alt="<?php echo esc_attr($block['block_title']); ?>">
+                            <?php endif; ?>
+
+                            <?php if (!empty($block['block_title'])): ?>
+                                <h3><?php echo esc_html($block['block_title']); ?></h3>
+                            <?php endif; ?>
+                        </div>
+
+                        <?php if (!empty($block['block_text'])): ?>
+                            <p class="info"><?php echo $block['block_text']; ?></p>
+                        <?php endif; ?>
+
+                        <?php if (!empty($block['block_links'])): ?>
+                            <div class="links-wrapper">
+                                <span class="links-intro">Vezi și:</span>
+                                <?php foreach ($block['block_links'] as $link):
+                                    $url = is_array($link['url']) ? $link['url']['url'] : $link['url'];
+                                    $target = !empty($link['target']) ? $link['target'] : '_self';
+                                ?>
+                                    <a href="<?php echo esc_url($url); ?>" target="<?php echo esc_attr($target); ?>">
+                                        <?php echo esc_html($link['label']); ?>
+                                    </a>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php endif; ?>
+
+
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
 
             </div>
         </div>
@@ -29,6 +62,3 @@
         </svg>
     </section>
 <?php endif; ?>
-<!-- Fila este pt produse si/sau aplicatii !!!!!!!!!!!!!!!!!!!!!!! -->
-<!-- Fila este pt produse si/sau aplicatii !!!!!!!!!!!!!!!!!!!!!!! -->
-<!-- Fila este pt produse si/sau aplicatii !!!!!!!!!!!!!!!!!!!!!!! -->
