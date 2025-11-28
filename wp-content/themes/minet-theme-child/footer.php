@@ -24,7 +24,7 @@
 							<li><a href="#">Confecții</a></li>
 							<li><a href="#">Igienă</a></li>
 							<li><a href="#">Mobilă</a></li>
-							<li><a href="#">Produse Bedding</a></li>
+							<li><a href="#">Produse bedding</a></li>
 							<li><a href="#">Saltele</a></li>
 						</ul>
 					</div>
@@ -33,9 +33,9 @@
 						<ul>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Geotextile</a></li>
-							<li><a href="#">Șervețele Umede</a></li>
-							<li><a href="#">Izolații Termice-Acustice-</a></li>
-							<li><a href="#">Vate Voluminoase</a></li>
+							<li><a href="#">Șervețele umede</a></li>
+							<li><a href="#">Izolații termice-acustice</a></li>
+							<li><a href="#">Vate voluminoase</a></li>
 							<li><a href="#">Geosintetice</a></li>
 						</ul>
 					</div>
