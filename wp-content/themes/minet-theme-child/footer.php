@@ -17,19 +17,18 @@
 			<div class="footer-right">
 				<div class="footer-columns">
 					<div class="footer-column">
-						<h4>// Aplicații</h4>
+						<h4 class="footer-column-title"><a href="#">// Aplicații</a></h4>
 						<ul>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Construcții</a></li>
 							<li><a href="#">Confecții</a></li>
 							<li><a href="#">Igienă</a></li>
 							<li><a href="#">Mobilă</a></li>
-							<li><a href="#">Produse bedding</a></li>
-							<li><a href="#">Saltele</a></li>
+							<li><a href="#">Bedding & Saltele</a></li>
 						</ul>
 					</div>
 					<div class="footer-column">
-						<h4>// Produse</h4>
+						<h4 class="footer-column-title"><a href="#">// Produse</a></h4>
 						<ul>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Geotextile</a></li>
@@ -40,7 +39,7 @@
 						</ul>
 					</div>
 					<div class="footer-column">
-						<h4>// Tehnologii</h4>
+						<h4 class="footer-column-title"><a href="#">// Tehnologii</a></h4>
 						<ul>
 							<li><a href="#">Spunlace</a></li>
 							<li><a href="#">Thermobonding</a></li>
@@ -52,7 +51,7 @@
 						</ul>
 					</div>
 					<div class="footer-column">
-						<h4>// Companie</h4>
+						<h4 class="footer-column-title"><span>// Companie</span></h4>
 						<ul>
 							<li><a href="#">Misiunea noastră</a></li>
 							<li><a href="#">Cariere</a></li>
