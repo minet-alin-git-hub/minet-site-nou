@@ -19,6 +19,7 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Aplicații</a></h4>
 						<ul>
+							<li class="show-only-on-mobile"><a href="#">Toate Aplicațiile</a></li>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Construcții</a></li>
 							<li><a href="#">Confecții</a></li>
@@ -30,6 +31,7 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Produse</a></h4>
 						<ul>
+							<li class="show-only-on-mobile"><a href="#">Toate Produsele</a></li>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Geotextile</a></li>
 							<li><a href="#">Șervețele umede</a></li>
@@ -41,6 +43,7 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Tehnologii</a></h4>
 						<ul>
+							<li class="show-only-on-mobile"><a href="#">Toate Tehnologiile</a></li>
 							<li><a href="#">Spunlace</a></li>
 							<li><a href="#">Thermobonding</a></li>
 							<li><a href="#">Needlepunch</a></li>
