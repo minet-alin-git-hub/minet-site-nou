@@ -19,7 +19,6 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Aplicații</a></h4>
 						<ul>
-							<li class="show-only-on-mobile"><a href="#">Toate Aplicațiile</a></li>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Construcții</a></li>
 							<li><a href="#">Confecții</a></li>
@@ -31,7 +30,6 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Produse</a></h4>
 						<ul>
-							<li class="show-only-on-mobile"><a href="#">Toate Produsele</a></li>
 							<li><a href="#">Automotive</a></li>
 							<li><a href="#">Geotextile</a></li>
 							<li><a href="#">Șervețele umede</a></li>
@@ -43,7 +41,6 @@
 					<div class="footer-column">
 						<h4 class="footer-column-title"><a href="#">// Tehnologii</a></h4>
 						<ul>
-							<li class="show-only-on-mobile"><a href="#">Toate Tehnologiile</a></li>
 							<li><a href="#">Spunlace</a></li>
 							<li><a href="#">Thermobonding</a></li>
 							<li><a href="#">Needlepunch</a></li>
@@ -86,6 +83,11 @@
 	</div>
 </footer>
 <?php get_template_part('template-parts/general/general', 'svg'); ?>
+<div class="mobile-action-bar">
+	<a href="/contact"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/quota-star.svg" alt="Get a Quote">Obține o cotă!</a>
+	<a href="tel:0350401710"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/phone.svg" alt="Call us">Sună-ne!</a>
+	<a href="https://wa.me/40700000000"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/whatsapp.svg" alt="WhatsApp">WhatsApp</a>
+</div>
 <?php wp_footer(); ?>
 </body>
 

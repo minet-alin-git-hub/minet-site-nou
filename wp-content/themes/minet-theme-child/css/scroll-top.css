@@ -1,32 +1,60 @@
 #scrollToTop {
   position: fixed;
-  bottom: 20px;
+  bottom: 7px;
   right: 20px;
-  display: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  border-radius: 6px;
   background: #fff;
-  color: #000;
-  font-size: 22px;
-  font-weight: bold;
+  color: #444142;
   border: none;
-  cursor: pointer;
-  z-index: 999;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 2px 7px;
   display: flex;
+  gap: 8px;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease,
-    color 0.3s ease;
+  cursor: pointer;
+  z-index: 999;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease,
+    color 0.2s ease;
   will-change: transform;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-box-shadow: 2px 2px 0px 1px #c42b1c;
+  box-shadow: 2px 2px 0px 1px #c42b1c;
 }
-
-#scrollToTop:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+#scrollToTop svg {
+  fill: #444142;
 }
-
-#scrollToTop:focus {
-  outline: none;
+#scrollToTop span {
+  border-left: 1px solid #444142;
+  padding-left: 8px;
+}
+#scrollToTop span:first-of-type {
+  display: flex;
+}
+#scrollToTop span:nth-of-type(2) {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  #scrollToTop {
+    bottom: 62px;
+    right: 20px;
+    font-size: 15px;
+  }
+  #scrollToTop span:first-of-type {
+    display: none;
+  }
+  #scrollToTop span:nth-of-type(2) {
+    display: flex;
+  }
+}
+@media screen and (max-width: 376px) {
+  #scrollToTop {
+    bottom: 67px;
+    right: 15px;
+  }
+}
+#scrollToTop:hover,
+#scrollToTop:active {
+  transform: translate(1px, 1px);
+  box-shadow: 0px 0px 0px 0px #c42b1c;
 }

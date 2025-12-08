@@ -47,11 +47,16 @@
   border-top: 8px solid #c1a16d;
   padding: 50px;
   border-radius: 4px;
-  background: #fbf9ee url("../assets/img/image.jpg") !important;
+  background: #fbf9ee url("../assets/img/batch_Layer 1_11zon.jpg") !important;
   background-size: cover !important;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   opacity: 0.95;
+}
+@media screen and (max-width: 767px) {
+  .technology_applicatons .box {
+    padding: 20px !important;
+  }
 }
 .technology_applicatons h2 {
   color: #fff;

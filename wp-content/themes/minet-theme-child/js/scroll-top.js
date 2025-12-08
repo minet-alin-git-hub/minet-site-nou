@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.id = 'scrollToTop';
     btn.innerHTML = `
 <svg fill="#c42b1c" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 width="22px" height="22px" viewBox="0 0 60.731 60.731"
+	 width="15px" height="15px" viewBox="0 0 60.731 60.731"
 	 xml:space="preserve">
 <g>
 	<g>
@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	</g>
 </g>
 </svg>
-`;
+<span>To top</span><span>Top</span>
+`;    
     document.body.appendChild(btn);
-
     window.addEventListener('scroll', () => {
         if (window.scrollY > 300) btn.style.display = 'flex';
         else btn.style.display = 'none';

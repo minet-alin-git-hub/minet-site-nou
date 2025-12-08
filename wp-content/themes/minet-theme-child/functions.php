@@ -57,6 +57,19 @@ function minet_child_mobile_menu_js()
 }
 add_action('wp_enqueue_scripts', 'minet_child_mobile_menu_js');
 
+// Enqueue mobile-bar JS
+function minet_child_mobile_bar_js()
+{
+    wp_enqueue_script(
+        'minet-mobile-bar',
+        get_stylesheet_directory_uri() . '/assets/js/mobile-bar.js',
+        array('jquery'),
+        filemtime(get_stylesheet_directory() . '/assets/js/mobile-bar.js'),
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'minet_child_mobile_bar_js');
+
 // Add class to parent menu items for mobile toggle
 function minet_add_mobile_toggle_class($items)
 {
