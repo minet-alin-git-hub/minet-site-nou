@@ -44,7 +44,6 @@ function minet_child_enqueue_tabs_assets()
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_tabs_assets');
 
-// Enqueue mobile menu JS
 function minet_child_mobile_menu_js()
 {
     wp_enqueue_script(
@@ -57,20 +56,21 @@ function minet_child_mobile_menu_js()
 }
 add_action('wp_enqueue_scripts', 'minet_child_mobile_menu_js');
 
-// Enqueue mobile-bar JS
 function minet_child_mobile_bar_js()
 {
-    wp_enqueue_script(
-        'minet-mobile-bar',
-        get_stylesheet_directory_uri() . '/assets/js/mobile-bar.js',
-        array('jquery'),
-        filemtime(get_stylesheet_directory() . '/assets/js/mobile-bar.js'),
-        true
-    );
+    $file = get_stylesheet_directory() . '/assets/js/mobile-bar.js';
+    if (file_exists($file)) {
+        wp_enqueue_script(
+            'minet-mobile-bar',
+            get_stylesheet_directory_uri() . '/assets/js/mobile-bar.js',
+            array('jquery'),
+            filemtime($file),
+            true
+        );
+    }
 }
 add_action('wp_enqueue_scripts', 'minet_child_mobile_bar_js');
 
-// Add class to parent menu items for mobile toggle
 function minet_add_mobile_toggle_class($items)
 {
     foreach ($items as $item) {
@@ -81,3 +81,71 @@ function minet_add_mobile_toggle_class($items)
     return $items;
 }
 add_filter('wp_nav_menu_objects', 'minet_add_mobile_toggle_class');
+
+// Numbers section CSS
+function minet_child_enqueue_numbers_section()
+{
+    if (is_front_page()) {
+        wp_enqueue_style(
+            'numbers-section-css',
+            get_stylesheet_directory_uri() . '/css/numbers-section.css',
+            array('child-style'),
+            null
+        );
+    }
+}
+add_action('wp_enqueue_scripts', 'minet_child_enqueue_numbers_section');
+
+// Animated globe Three.js
+function minet_child_enqueue_globe()
+{
+    wp_enqueue_script(
+        'three-js',
+        get_stylesheet_directory_uri() . '/js/libs/three.min.js',
+        array(),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'three-orbit',
+        get_stylesheet_directory_uri() . '/js/libs/OrbitControls.js',
+        array('three-js'),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'three-globe-js',
+        get_stylesheet_directory_uri() . '/js/libs/three-globe.min.js',
+        array('three-js'),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
+        'minet-globe',
+        get_stylesheet_directory_uri() . '/js/minet-globe.js',
+        array('three-globe-js', 'three-orbit'),
+        null,
+        true
+    );
+
+    wp_localize_script('minet-globe', 'minetGlobeData', array(
+        'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe9.png'
+    ));
+}
+add_action('wp_enqueue_scripts', 'minet_child_enqueue_globe');
+
+// Enqueue scripts.js
+function minet_child_enqueue_scripts_js()
+{
+    wp_enqueue_script(
+        'minet-scripts-js',
+        get_stylesheet_directory_uri() . '/js/scripts.js',
+        array('jquery'),
+        filemtime(get_stylesheet_directory() . '/js/scripts.js'),
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'minet_child_enqueue_scripts_js');

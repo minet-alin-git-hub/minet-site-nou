@@ -84,7 +84,7 @@
 </footer>
 <?php get_template_part('template-parts/general/general', 'svg'); ?>
 <div class="mobile-action-bar">
-	<a href="/contact"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/quota-star.svg" alt="Get a Quote">Obține o cotă!</a>
+	<a href="/contact"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/quota-star.svg" alt="Get a Quote">Obține o oferta!</a>
 	<a href="tel:0350401710"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/phone.svg" alt="Call us">Sună-ne!</a>
 	<a href="https://wa.me/40700000000"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/svg/whatsapp.svg" alt="WhatsApp">WhatsApp</a>
 </div>

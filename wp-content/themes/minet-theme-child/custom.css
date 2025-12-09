@@ -580,9 +580,6 @@ header .container {
   box-shadow: 13px 17px 41px -1px rgba(0, 0, 0, 0.75);
   outline: 1px solid black;
 }
-.numbers {
-  padding: 40px 0 50px;
-}
 
 .numbers .numbers_container {
   margin-bottom: inherit;
@@ -592,18 +589,10 @@ header .container {
     height: 450px;
   }
 }
-@media screen and (max-width: 650px) {
-  .numbers figure > img {
-    padding: 0 2rem;
-  }
-  .numbers {
-    padding-top: 0px;
-  }
-}
 
 /* MISC FIXES END */
 /* BACKGROUND NOISE START */
-section {
+main {
   background-image: repeating-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.02),
@@ -614,17 +603,7 @@ section {
   background-repeat: repeat;
   background-size: auto;
 }
-section > .numbers {
-  background-image: repeating-linear-gradient(
-    315deg,
-    rgba(255, 255, 255, 0.02),
-    rgba(255, 255, 255, 0.02) 1px,
-    transparent 1px,
-    transparent 2px
-  );
-  background-repeat: repeat;
-  background-size: auto;
-}
+
 /* BACKGROUND NOISE END */
 /* Subpages first text START */
 .center-info .info {
@@ -1024,5 +1003,12 @@ h3 {
     padding: 1px;
   }
 }
+/* Mobile nav fix bug END */
 
-/* Mobile nav fix bug START */
+/* Globe START */
+#my-globe-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/* Globe END */
