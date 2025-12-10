@@ -7,22 +7,20 @@ window.addEventListener('load', function() {
     const scene = new THREE.Scene();
 
     const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 2000);
-    camera.position.z = 190;
+    camera.position.z = 165;
 
     const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(canvas.clientWidth, canvas.clientHeight);
 
-    const ambientLight = new THREE.AmbientLight(0xffffff, 2);
-    
-    scene.add(ambientLight);
+    // Load globe texture
+    const globeTexture = new THREE.TextureLoader().load(minetGlobeData.globeImage);
 
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-    directionalLight.position.set(100, 50, 100);
-    scene.add(directionalLight);
-
-    const globe = new ThreeGlobe().globeImageUrl(minetGlobeData.globeImage);
-
+    const globe = new ThreeGlobe()
+        .globeImageUrl(minetGlobeData.globeImage)
+        .globeMaterial(new THREE.MeshBasicMaterial({ map: globeTexture })) // No lighting, no glow
+        .atmosphereColor('rgba(0,0,0,0)') // Remove atmosphere (aura)
+        .atmosphereAltitude(0); // Ensure no altitude for halo
     scene.add(globe);
 
     function animate() {
@@ -33,7 +31,7 @@ window.addEventListener('load', function() {
 
     function resizeRenderer() {
         const width = canvas.clientWidth;
-        const height = canvas.clientHeight || 400;
+        const height = canvas.clientHeight || 500;
         renderer.setSize(width, height, false);
         camera.aspect = width / height;
         camera.updateProjectionMatrix();

@@ -5,8 +5,8 @@
                 <figure><?php echo wp_get_attachment_image($args->image['id'], '', '', array('class' => '', 'alt' => $args->image['title'])); ?></figure>
             <?php endif; ?>
             <div>
-                <h2>Partener de încredere pentru companii din întreaga lume, pentru a crearea materiale mai performante, din 1983</h2>
-                <p>De la fibre brute la produse finite, Minet oferă materiale care au performanțe constante, sustenabile și precise</p>
+                <h4 class="numbers-title">Din <span>1983</span>, partener de încredere pentru companii din întreaga lume, oferim materiale de înaltă performanță.</h4>
+                <p class="numbers-description">De la fibre brute la produse finite, compania noastră vă oferă netesuțe—punctual, cu rezultate precise și constante.</p>
             </div>
         </div>
         <div class="numbers-wrapper-right">

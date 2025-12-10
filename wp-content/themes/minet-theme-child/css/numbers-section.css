@@ -1,23 +1,47 @@
 .numbers {
   max-width: 1240px;
-  margin: 120px auto;
+  margin: 8rem auto;
 }
 .numbers-wrapper {
   display: flex;
   justify-content: space-between;
 }
 .numbers-wrapper-left {
-  width: 49%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.numbers-wrapper-left .numbers-title {
+  font-size: 28px;
+}
+.numbers-wrapper-left .numbers-title span {
+  color: #c1a16d;
+}
+.numbers-wrapper-left .numbers-description {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 .numbers-wrapper-right {
-  width: 49%;
+  width: 50%;
   position: relative;
 }
-.numbers figure > img {
+.numbers-wrapper-right .number_item .text {
+  position: relative;
+  top: -15px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-weight: 700;
+}
+.numbers .numbers_container {
+  margin-top: 0 !important;
+}
+.numbers figure {
   width: 70%;
+  margin: 1rem auto 2rem;
 }
 .numbers .numbers_container .number_item {
-  width: 24%;
+  width: auto !important;
   position: absolute;
   padding: 0px !important;
 }
@@ -42,14 +66,20 @@
   right: 0;
 }
 .numbers .number {
+  margin-bottom: 0px !important;
+  line-height: unset;
   text-shadow: none !important;
   color: #e1101e !important;
 }
 .numbers_container .number_item .number span {
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 .numbers_container .number_item .number .text {
   font-size: 3rem;
+}
+.hp_about_us .info_item .info strong {
+  color: #c1a16d;
+  text-shadow: none;
 }
 @media screen and (max-width: 650px) {
   .numbers figure > img {
