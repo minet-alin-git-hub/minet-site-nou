@@ -310,6 +310,27 @@ Version:      1.0
   }
 }
 /* Slide Imagini END */
+/* Home fixes START */
+@media screen and (max-width: 1300px) {
+  .numbers,
+  .hp_about_us {
+    padding: 0 3rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .numbers,
+  .hp_about_us {
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .numbers,
+  .hp_about_us {
+    padding: 0 1rem;
+  }
+}
+
+/* Home fixes END */
 /* START image + desc section */
 /* .rilc .flex-row .info_item {
   padding-left: 60px;
@@ -318,10 +339,16 @@ Version:      1.0
   padding-top: unset;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .hp .hp_about_us .rilc .info_item .btn.default-btn {
   width: fit-content;
+  align-self: center;
+}
+@media screen and (max-width: 850px) {
+  .hp .hp_about_us .rilc .info_item .btn.default-btn {
+    align-self: center;
+  }
 }
 .rilc .flex-row .info_item .info > p {
   line-height: 1.2;
@@ -552,6 +579,9 @@ header .container {
   .rilc .flex-row .info_item {
     padding-left: 0;
   }
+  .hp .hp_about_us .lirc .info {
+    margin-bottom: 0px;
+  }
 }
 .header-banner .main-title {
   font-size: 5rem;
@@ -591,6 +621,14 @@ header .container {
   margin-right: inherit;
   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 }
+@media screen and (max-width: 850px) {
+  .lirc .flex-row .image_item img {
+    clip-path: none;
+  }
+  .lirc .flex-row .image_item .stroke {
+    display: none;
+  }
+}
 .figure-shadow {
   box-shadow: none;
 }
@@ -598,18 +636,25 @@ header .container {
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
 }
 .lirc .flex-row .image_item .stroke {
-  bottom: -125px;
+  left: 77%;
+  bottom: -25%;
   mix-blend-mode: overlay;
 }
 .hp .hp_about_us .rilc .flex-row .info_item .stroke {
   top: -100px;
+  left: -140%;
   mix-blend-mode: overlay;
+}
+.hp .hp_about_us .stroke p {
+  font-size: 100px;
 }
 .hp .hp_about_us .rilc .flex-row .image_item img {
   box-shadow: 13px 17px 41px -1px rgba(0, 0, 0, 0.75);
   outline: 1px solid black;
 }
-
+.rilc .flex-row .image_item {
+  flex: 1 1 80% !important;
+}
 .numbers .numbers_container {
   margin-bottom: inherit;
 }
@@ -627,7 +672,13 @@ header .container {
   }
 }
 .hp .hp_about_us .rilc {
-  margin-top: 0px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+@media (max-width: 767px) {
+  .hp .hp_about_us .rilc {
+    margin-bottom: 3rem;
+  }
 }
 /* MISC FIXES END */
 /* BACKGROUND NOISE START */

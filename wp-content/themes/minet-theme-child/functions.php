@@ -5,6 +5,7 @@ function child_enqueue_styles()
     wp_enqueue_style('child-style', get_stylesheet_uri(), array('parent-style'));
     wp_enqueue_style('child-custom', get_stylesheet_directory_uri() . '/custom.css', array('parent-style', 'child-style'));
     wp_enqueue_style('minet-footer', get_stylesheet_directory_uri() . '/css/footer.css', array('parent-style', 'child-style', 'child-custom'));
+    wp_enqueue_style('vertical-accordion', get_stylesheet_directory_uri() . '/css/vertical-accordion.css', array('parent-style', 'child-style', 'child-custom'), null);
 }
 add_action('wp_enqueue_scripts', 'child_enqueue_styles', 20);
 
@@ -82,7 +83,6 @@ function minet_add_mobile_toggle_class($items)
 }
 add_filter('wp_nav_menu_objects', 'minet_add_mobile_toggle_class');
 
-// Numbers section CSS
 function minet_child_enqueue_numbers_section()
 {
     if (is_front_page()) {
@@ -96,7 +96,6 @@ function minet_child_enqueue_numbers_section()
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_numbers_section');
 
-// Animated globe Three.js
 function minet_child_enqueue_globe()
 {
     wp_enqueue_script(
@@ -137,7 +136,6 @@ function minet_child_enqueue_globe()
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_globe');
 
-// Enqueue scripts.js
 function minet_child_enqueue_scripts_js()
 {
     wp_enqueue_script(

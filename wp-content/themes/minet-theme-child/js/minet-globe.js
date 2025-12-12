@@ -24,7 +24,7 @@ window.addEventListener('load', function() {
     scene.add(globe);
 
     function animate() {
-        globe.rotation.y += 0.002;
+        globe.rotation.y += 0.0015;
         renderer.render(scene, camera);
         requestAnimationFrame(animate);
     }

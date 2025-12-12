@@ -1,46 +1,68 @@
-<?php if (!empty($args->title) || have_rows('ti_tabs')): ?>
+<?php
+$args = isset($args) && is_object($args) ? $args : (object) [];
+
+$tabs = get_field('ti_tabs');
+$title = isset($args->title) ? $args->title : '';
+$info = isset($args->info) ? $args->info : '';
+
+$buttons = isset($args->buttons) && is_array($args->buttons) ? $args->buttons : [];
+$first_link = isset($buttons['link']) ? esc_url($buttons['link']) : '';
+$first_label = isset($buttons['label']) ? esc_html($buttons['label']) : '';
+$second_link = isset($buttons['link_2']) ? esc_url($buttons['link_2']) : '';
+$second_label = isset($buttons['label_2']) ? esc_html($buttons['label_2']) : '';
+?>
+
+<?php if (!empty($title) || !empty($tabs)): ?>
     <section class="technology_applicatons one_image_screen h-align">
         <div class="container">
             <div class="box figure-shadow">
 
                 <div>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/technical_specifications.png?nocache=1" alt="Technical Specifications">
+                    <img src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/img/technical_specifications.png?nocache=1'); ?>" alt="Technical Specifications">
 
-                    <?php if (!empty($args->title)): ?>
-                        <h2><?php echo $args->title; ?></h2>
+                    <?php if (!empty($title)): ?>
+                        <h2><?php echo esc_html($title); ?></h2>
+                    <?php endif; ?>
+                    <?php if (!empty($info)): ?>
+                        <p><?php echo esc_html($info); ?></p>
                     <?php endif; ?>
                 </div>
 
-                <?php if (have_rows('ti_tabs')): ?>
+                <?php
+                $has_tabs = false;
+                foreach ($tabs as $row) {
+                    if (!empty($row['tab_title']) || !empty($row['tab_content'])) {
+                        $has_tabs = true;
+                        break;
+                    }
+                }
+                ?>
+
+                <?php if ($has_tabs): ?>
                     <div class="tabs-container">
                         <ul class="tabs-nav">
                             <?php $i = 0;
-                            while (have_rows('ti_tabs')): the_row(); ?>
+                            foreach ($tabs as $row):
+                                if (empty($row['tab_title']) && empty($row['tab_content'])) continue; ?>
                                 <li class="<?php echo $i === 0 ? 'active' : ''; ?>" data-tab="tab-<?php echo $i; ?>">
-                                    <?php the_sub_field('tab_title'); ?>
+                                    <?php echo esc_html($row['tab_title']); ?>
                                 </li>
                             <?php $i++;
-                            endwhile; ?>
+                            endforeach; ?>
                         </ul>
                         <div class="tabs-content">
                             <?php $i = 0;
-                            while (have_rows('ti_tabs')): the_row(); ?>
+                            foreach ($tabs as $row):
+                                if (empty($row['tab_title']) && empty($row['tab_content'])) continue; ?>
                                 <div class="tab-pane <?php echo $i === 0 ? 'active' : ''; ?>" id="tab-<?php echo $i; ?>">
-                                    <?php the_sub_field('tab_content'); ?>
+                                    <?php echo wp_kses_post($row['tab_content']); ?>
                                 </div>
                             <?php $i++;
-                            endwhile; ?>
+                            endforeach; ?>
                         </div>
                     </div>
                 <?php endif; ?>
 
-                <?php
-                $buttons = $args->buttons;
-                $first_link = $buttons['link'] ?? '';
-                $first_label = $buttons['label'] ?? '';
-                $second_link = $buttons['link_2'] ?? '';
-                $second_label = $buttons['label_2'] ?? '';
-                ?>
 
                 <div class="buttons">
                     <?php if ($first_link && $first_label): ?>

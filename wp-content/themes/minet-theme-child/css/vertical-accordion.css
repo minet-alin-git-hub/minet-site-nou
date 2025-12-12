@@ -1,0 +1,105 @@
+.hp_applications_gallery .applications_gird li .flex-row {
+  height: -webkit-fill-available;
+}
+.hp_applications_gallery .applications_gird li .flex-row {
+  height: -webkit-fill-available;
+}
+.hp_applications_gallery .applications_gird li .title-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hp_applications_gallery .applications_gird li h3 {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 0px;
+  letter-spacing: 4px;
+}
+.hp_applications_gallery .applications_gird li .flex-item.text-item {
+  /* display: none; */
+  visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+  .hp_applications_gallery .applications_gird li .flex-item.text-item {
+    visibility: visible;
+  }
+  .hp_applications_gallery
+    .applications_gird
+    li
+    .flex-row
+    .flex-item.text-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    flex-basis: content;
+    margin-bottom: 50px;
+  }
+  .hp_applications_gallery .applications_gird li .btn {
+    margin: 0 auto;
+  }
+  .hp_applications_gallery
+    .applications_gird
+    li
+    .flex-row
+    .flex-item.text-item
+    p {
+    margin-bottom: -10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+}
+.hp_applications_gallery .applications_gird li:hover .flex-item.text-item {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+}
+.hp_applications_gallery .applications_gird li:hover .flex-item.text-item p {
+  font-size: 1.1rem;
+}
+.hp_applications_gallery .applications_gird li {
+  padding: 15px;
+}
+.hp_applications_gallery .applications_gird li:hover {
+  flex: 1 1 35%;
+}
+.hp_applications_gallery .applications_gird li:after {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.hp_applications_gallery .applications_gird li:hover:after {
+  background-color: transparent;
+}
+.hp_applications_gallery .applications_gird li .number {
+  -webkit-text-stroke: 2px white;
+}
+.hp_applications_gallery .applications_gird li:hover .number {
+  -webkit-text-stroke: 2px white;
+}
+@media screen and (min-width: 900px) {
+  .hp_applications_gallery
+    .applications_gird
+    li:hover
+    .flex-row
+    .flex-item.text-item {
+    animation: none !important;
+  }
+}
+
+.hp_applications_gallery .applications_gird li .btn {
+  width: fit-content;
+}
+.hp_applications_gallery
+  .applications_gird
+  li:hover
+  .flex-row
+  .flex-item.text-item {
+  transition: 0.3s;
+  transition-delay: 0.3s;
+  opacity: 1;
+}

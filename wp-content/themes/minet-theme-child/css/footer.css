@@ -3,7 +3,24 @@ footer .container {
   justify-content: center;
   padding: 50px 0px 45px;
 }
-
+@media screen and (max-width: 1300px) {
+  footer .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  footer .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 footer .footer-main {
   display: flex;
   width: 100%;
@@ -219,6 +236,7 @@ footer .footer-column ul li a:hover::after {
 @media (max-width: 768px) {
   footer .footer-main {
     flex-direction: column;
+    width: 90%;
   }
 
   footer .footer-left,
