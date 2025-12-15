@@ -10,6 +10,12 @@ $first_link = isset($buttons['link']) ? esc_url($buttons['link']) : '';
 $first_label = isset($buttons['label']) ? esc_html($buttons['label']) : '';
 $second_link = isset($buttons['link_2']) ? esc_url($buttons['link_2']) : '';
 $second_label = isset($buttons['label_2']) ? esc_html($buttons['label_2']) : '';
+$third_link = isset($buttons['link_3']) ? esc_url($buttons['link_3']) : '';
+$third_label = isset($buttons['label_3']) ? esc_html($buttons['label_3']) : '';
+$fourth_link = isset($buttons['link_4']) ? esc_url($buttons['link_4']) : '';
+$fourth_label = isset($buttons['label_4']) ? esc_html($buttons['label_4']) : '';
+$fifth_link = isset($buttons['link_5']) ? esc_url($buttons['link_5']) : '';
+$fifth_label = isset($buttons['label_5']) ? esc_html($buttons['label_5']) : '';
 ?>
 
 <?php if (!empty($title) || !empty($tabs)): ?>
@@ -70,6 +76,15 @@ $second_label = isset($buttons['label_2']) ? esc_html($buttons['label_2']) : '';
                     <?php endif; ?>
                     <?php if ($second_link && $second_label): ?>
                         <a href="<?php echo $second_link; ?>" class="btn default-btn"><span><?php echo $second_label; ?></span></a>
+                    <?php endif; ?>
+                    <?php if ($third_link && $third_label): ?>
+                        <a href="<?php echo $third_link; ?>" class="btn default-btn"><span><?php echo $third_label; ?></span></a>
+                    <?php endif; ?>
+                    <?php if ($fourth_link && $fourth_label): ?>
+                        <a href="<?php echo $fourth_link; ?>" class="btn default-btn"><span><?php echo $fourth_label; ?></span></a>
+                    <?php endif; ?>
+                    <?php if ($fifth_link && $fifth_label): ?>
+                        <a href="<?php echo $fifth_link; ?>" class="btn default-btn"><span><?php echo $fifth_label; ?></span></a>
                     <?php endif; ?>
                 </div>
 

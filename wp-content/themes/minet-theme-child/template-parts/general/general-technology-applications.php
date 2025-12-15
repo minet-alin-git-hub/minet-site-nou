@@ -1,7 +1,6 @@
 <?php if (!empty($args->title) || !empty($args->info) || !empty($args->button) || !empty($args->blocks)): ?>
     <section class="technology_applicatons one_image_screen h-align">
         <div class="container">
-            <!-- <div class="box figure-shadow" style="background-color: red !important; background-image: url('http://192.168.11.39/minet-site-nou/wp-content/uploads/2025/11/gradient-background.jpg') !important;"> -->
             <div class="box figure-shadow">
                 <?php if (!empty($args->title)): ?>
                     <h2><?php echo esc_html($args->title); ?></h2>
@@ -31,10 +30,26 @@
                                 <?php echo esc_html($ti_button['second_button_label']); ?>
                             </a>
                         <?php endif; ?>
+
+                        <?php if (!empty($ti_button['third_button_link']) && !empty($ti_button['third_button_label'])): ?>
+                            <a href="<?php echo esc_url($ti_button['third_button_link']); ?>" class="btn default-btn">
+                                <?php echo esc_html($ti_button['third_button_label']); ?>
+                            </a>
+                        <?php endif; ?>
+
+                        <?php if (!empty($ti_button['fourth_button_link']) && !empty($ti_button['fourth_button_label'])): ?>
+                            <a href="<?php echo esc_url($ti_button['fourth_button_link']); ?>" class="btn default-btn">
+                                <?php echo esc_html($ti_button['fourth_button_label']); ?>
+                            </a>
+                        <?php endif; ?>
+
+                        <?php if (!empty($ti_button['fifth_button_link']) && !empty($ti_button['fifth_button_label'])): ?>
+                            <a href="<?php echo esc_url($ti_button['fifth_button_link']); ?>" class="btn default-btn">
+                                <?php echo esc_html($ti_button['fifth_button_label']); ?>
+                            </a>
+                        <?php endif; ?>
                     </div>
                 <?php endif; ?>
-
-
 
                 <?php if (!empty($args->blocks)): ?>
                     <?php foreach ($args->blocks as $block): ?>
