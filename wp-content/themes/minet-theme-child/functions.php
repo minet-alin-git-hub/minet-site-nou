@@ -131,7 +131,7 @@ function minet_child_enqueue_globe()
     );
 
     wp_localize_script('minet-globe', 'minetGlobeData', array(
-        'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe17.png'
+        'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe9.png'
     ));
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_globe');

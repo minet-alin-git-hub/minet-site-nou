@@ -554,12 +554,83 @@ header .container {
 /* Main Navigation Menu END */
 
 /* HERO START*/
+.hp {
+  padding-left: 0;
+  padding-right: 0;
+}
+.homepage-banner .container .box {
+  max-width: 1560px;
+}
 .homepage-banner .container .box p {
-  font-weight: 600;
   letter-spacing: 1px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
-  color: #141414;
+  color: #e6e6e6;
+}
+.homepage-banner .container .box h1 {
+  max-width: 810px;
+}
+.container .box .main-title {
+  /* color: #e1101d; */
+}
+.hp .container .box {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.hp .homepage-banner .container {
+  max-width: 1560px;
+}
+.hp .homepage-banner .container .hero-cta-button {
+  margin-top: 3rem;
+  display: inline-block;
+  background-color: transparent;
+  color: #c1a16d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+  outline: 1px solid #c1a16d;
+}
+.hp .homepage-banner .container .hero-cta-scroll-button {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  display: inline-block;
+  background-color: transparent;
+  color: #c1a16d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+.hp .homepage-banner .container .hero-cta-button::after {
+  content: "→";
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.25s ease;
+}
+.hp .homepage-banner .container .hero-cta-button:hover {
+  background-color: #c1a16dce;
+  color: #e6e6e6;
+}
+.hp .homepage-banner .container .hero-cta-scroll-button::after {
+  content: "→";
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.25s ease;
+}
+.hp .homepage-banner .container .hero-cta-button:hover::after {
+  transform: translateX(6px);
+  color: #e6e6e6;
+}
+.hp .homepage-banner .container .hero-cta-scroll-button:hover::after {
+  transform: translateX(6px);
+}
+.hp .homepage-banner .container .hero-cta-scroll-button:hover {
+  outline: 1px solid #c1a16d;
 }
 /* HERO END */
 /* MISC FIXES START */
