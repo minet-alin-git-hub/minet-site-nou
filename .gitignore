@@ -1,0 +1,26 @@
+# Ignore WordPress configuration
+wp-config.php
+
+# Ignore server config
+.htaccess
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor/IDE files
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.vscode/
+
+# Ignore node/npm dependencies if any
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Track everything else (themes, plugins, uploads, core)
