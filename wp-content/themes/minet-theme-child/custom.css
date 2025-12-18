@@ -35,7 +35,10 @@ Version:      1.0
   z-index: 2;
   transition: color 0.3s ease;
 }
-
+.info_boxes li a:active {
+  transform: scale(0.98);
+  transition: transform 0.05s ease;
+}
 .info_boxes li a:before {
   content: "";
   position: absolute;
@@ -143,13 +146,14 @@ Version:      1.0
   }
 }
 .info_boxes_screen ul li p {
-  mask-image: linear-gradient(to bottom, white 75%, transparent);
+  mask-image: linear-gradient(to bottom, white 65%, transparent);
   text-align: left;
   line-clamp: 6;
   -webkit-line-clamp: 6;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  padding-bottom: 2px;
 }
 
 .info_boxes_screen ul {
@@ -324,7 +328,7 @@ Version:      1.0
 @media screen and (max-width: 1300px) {
   .numbers,
   .hp_about_us {
-    /* padding: 0 3rem; */
+    padding: 0 3rem;
   }
 }
 @media screen and (max-width: 850px) {
@@ -399,6 +403,7 @@ Version:      1.0
 section {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  /* padding: 2rem; */
 }
 @media (max-width: 1100px) {
   .container {
@@ -415,7 +420,7 @@ section {
 
 /* Main Navigation Menu START */
 header {
-  padding: 0px;
+  padding: 0px 1rem;
   border-bottom: 1px solid #c1a16d;
 }
 @media (max-width: 1100px) {
@@ -558,6 +563,9 @@ header .container {
   padding-left: 0;
   padding-right: 0;
 }
+.hp .homepage-banner {
+  margin-bottom: 2rem;
+}
 .homepage-banner .container .box {
   max-width: 1560px;
 }
@@ -566,22 +574,58 @@ header .container {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   color: #e6e6e6;
+  margin-left: 2rem;
 }
 .homepage-banner .container .box h1 {
   max-width: 810px;
 }
-.container .box .main-title {
-  /* color: #e1101d; */
+@media screen and (max-width: 767px) {
+  .homepage-banner .container .box h1 {
+    font-size: 52px;
+    margin-left: 1rem;
+  }
+  .homepage-banner .container .box p {
+    margin-left: 1rem;
+  }
 }
+.container .box .main-title {
+  margin-left: 2rem;
+}
+/* @media screen and (max-width: 700px) {
+  .container .box .main-title {
+    margin-left: 1rem;
+  }
+} */
 .hp .container .box {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
+@media screen and (max-width: 1250px) {
+  .hp .container .box {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hp .container .box {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hp .container .box {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+
 .hp .homepage-banner .container {
   max-width: 1560px;
 }
+
 .hp .homepage-banner .container .hero-cta-button {
   margin-top: 3rem;
+  margin-left: 2rem;
   display: inline-block;
   background-color: transparent;
   color: #c1a16d;
@@ -593,9 +637,10 @@ header .container {
   text-align: center;
   outline: 1px solid #c1a16d;
 }
+
 .hp .homepage-banner .container .hero-cta-scroll-button {
   margin-top: 3rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   display: inline-block;
   background-color: transparent;
   color: #c1a16d;
@@ -605,6 +650,25 @@ header .container {
   border-radius: 40px;
   text-decoration: none;
   text-align: center;
+}
+.hp .homepage-banner .container .hero-cta-button:active,
+.hp .homepage-banner .container .hero-cta-scroll-button:active {
+  transform: scale(0.98);
+  transition: transform 0.05s ease;
+}
+@media screen and (max-width: 767px) {
+  .hp .homepage-banner .container .hero-cta-button {
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    padding: 0.75rem 1rem;
+  }
+  .hp .homepage-banner .container .hero-cta-scroll-button {
+    font-size: 0.9rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    padding: 0.75rem 1rem;
+  }
 }
 .hp .homepage-banner .container .hero-cta-button::after {
   content: "→";
@@ -751,9 +815,6 @@ header .container {
 .rilc .flex-row .image_item {
   flex: 1 1 80% !important;
 }
-.numbers .numbers_container {
-  margin-bottom: inherit;
-}
 @media screen and (min-width: 1440px) {
   .header-banner {
     height: 450px;
@@ -762,9 +823,12 @@ header .container {
 .hp_applications_gallery .applications__container {
   padding: 0px;
 }
+.hp_applications_gallery .section__title {
+  margin-bottom: 0px;
+}
 @media (max-width: 767px) {
   .hp_applications_gallery .applications__container {
-    padding-bottom: 65px;
+    padding-bottom: 0rem;
   }
 }
 .hp .hp_about_us .rilc {

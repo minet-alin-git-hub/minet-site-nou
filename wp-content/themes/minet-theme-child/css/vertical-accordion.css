@@ -1,3 +1,9 @@
+.hp_applications_gallery {
+  padding: 0rem;
+}
+.hp_applications_gallery .applications_gird {
+  margin-top: 20px;
+}
 .hp_applications_gallery .applications_gird li .flex-row {
   height: -webkit-fill-available;
 }
@@ -102,4 +108,22 @@
   transition: 0.3s;
   transition-delay: 0.3s;
   opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  .hp_applications_gallery
+    .applications_gird
+    li
+    .flex-row
+    .flex-item.text-item {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hp_applications_gallery
+    .applications_gird
+    li
+    .flex-row
+    .flex-item.text-item {
+    width: 100%;
+  }
 }

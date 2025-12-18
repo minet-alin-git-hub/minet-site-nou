@@ -96,28 +96,15 @@ function minet_child_enqueue_numbers_section()
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_numbers_section');
 
+// ---------- NEW Globe.gl ENQUEUE ----------
 function minet_child_enqueue_globe()
 {
+    if (!is_front_page()) return;
+
     wp_enqueue_script(
-        'three-js',
-        get_stylesheet_directory_uri() . '/js/libs/three.min.js',
+        'globe-gl',
+        'https://unpkg.com/globe.gl',
         array(),
-        null,
-        true
-    );
-
-    wp_enqueue_script(
-        'three-orbit',
-        get_stylesheet_directory_uri() . '/js/libs/OrbitControls.js',
-        array('three-js'),
-        null,
-        true
-    );
-
-    wp_enqueue_script(
-        'three-globe-js',
-        get_stylesheet_directory_uri() . '/js/libs/three-globe.min.js',
-        array('three-js'),
         null,
         true
     );
@@ -125,17 +112,21 @@ function minet_child_enqueue_globe()
     wp_enqueue_script(
         'minet-globe',
         get_stylesheet_directory_uri() . '/js/minet-globe.js',
-        array('three-globe-js', 'three-orbit'),
-        null,
+        array('globe-gl'),
+        filemtime(get_stylesheet_directory() . '/js/minet-globe.js'),
         true
     );
 
     wp_localize_script('minet-globe', 'minetGlobeData', array(
-        'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe9.png'
+        'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe2k.jpg',
+        'cloudsJpg' => get_stylesheet_directory_uri() . '/assets/img/clouds.jpg', // main cloud layer
+        'cloudsPng' => get_stylesheet_directory_uri() . '/assets/img/clouds.png'  // outer haze layer
     ));
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_globe');
 
+
+// ---------- OTHER SCRIPTS ----------
 function minet_child_enqueue_scripts_js()
 {
     wp_enqueue_script(

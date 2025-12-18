@@ -1,43 +1,75 @@
 window.addEventListener('load', function() {
-    if (typeof THREE === 'undefined' || typeof ThreeGlobe === 'undefined') return;
+    if (typeof Globe === 'undefined') return;
 
-    const canvas = document.getElementById('my-globe-canvas');
-    if (!canvas) return;
+    const container = document.getElementById('my-globe-container');
+    if (!container) return;
 
-    const scene = new THREE.Scene();
-
-    const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 2000);
-    camera.position.z = 165;
-
-    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(canvas.clientWidth, canvas.clientHeight);
-
-    // Load globe texture
-    const globeTexture = new THREE.TextureLoader().load(minetGlobeData.globeImage);
-
-    const globe = new ThreeGlobe()
+    const globe = Globe()(container)
         .globeImageUrl(minetGlobeData.globeImage)
-        .globeMaterial(new THREE.MeshBasicMaterial({ map: globeTexture })) // No lighting, no glow
-        .atmosphereColor('rgba(0,0,0,0)') // Remove atmosphere (aura)
-        .atmosphereAltitude(0); // Ensure no altitude for halo
-    scene.add(globe);
+        .bumpImageUrl(minetGlobeData.globeImage)
+        .backgroundColor('#00000000')
+        .showAtmosphere(false)
+        .pointsData([])
+        .onGlobeReady(() => {
+            const loader = new THREE.TextureLoader();
 
-    function animate() {
-        globe.rotation.y += 0.0015;
-        renderer.render(scene, camera);
-        requestAnimationFrame(animate);
+            loader.load(minetGlobeData.cloudsJpg, (mainTex) => {
+                loader.load(minetGlobeData.cloudsPng, (outerTex) => {
+                    const mainClouds = new THREE.Mesh(
+                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.03, 64, 64),
+                        new THREE.MeshBasicMaterial({
+                            map: mainTex,
+                            transparent: true,
+                            opacity: 0.4,
+                            side: THREE.DoubleSide,
+                            depthWrite: false,
+                            depthTest: false
+                        })
+                    );
+                    mainClouds.renderOrder = 999;
+                    globe.scene().add(mainClouds);
+
+                    const outerClouds = new THREE.Mesh(
+                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.05, 64, 64),
+                        new THREE.MeshBasicMaterial({
+                            map: outerTex,
+                            transparent: true,
+                            opacity: 0.25,
+                            side: THREE.DoubleSide,
+                            depthWrite: false,
+                            depthTest: false
+                        })
+                    );
+                    outerClouds.renderOrder = 998;
+                    globe.scene().add(outerClouds);
+
+                    const animateClouds = () => {
+                        mainClouds.rotation.y += 0.0025;
+                        outerClouds.rotation.y += 0.0015;
+                        requestAnimationFrame(animateClouds);
+                    };
+                    animateClouds();
+                });
+            });
+        });
+
+    const camera = globe.camera();
+    camera.position.z = 260;
+    camera.updateProjectionMatrix();
+
+    const controls = globe.controls();
+    controls.enableZoom = false;
+    controls.enableRotate = true;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.6;
+    controls.update();
+
+    function resize() {
+        const width = container.clientWidth;
+        const height = container.clientHeight || 500;
+        globe.width([width]);
+        globe.height([height]);
     }
-
-    function resizeRenderer() {
-        const width = canvas.clientWidth;
-        const height = canvas.clientHeight || 500;
-        renderer.setSize(width, height, false);
-        camera.aspect = width / height;
-        camera.updateProjectionMatrix();
-    }
-
-    window.addEventListener('resize', resizeRenderer);
-    resizeRenderer();
-    animate();
+    window.addEventListener('resize', resize);
+    resize();
 });

@@ -60,8 +60,6 @@
 							<li><a href="#">Press</a></li>
 							<li><a href="#">Privacy Settings</a></li>
 							<li><a href="#">Contact</a></li>
-
-
 						</ul>
 					</div>
 				</div>

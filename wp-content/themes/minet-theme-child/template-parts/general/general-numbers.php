@@ -20,7 +20,8 @@
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
-            <canvas id="my-globe-canvas"></canvas>
+            <!-- <canvas id="my-globe-canvas"></canvas> -->
+            <div id="my-globe-container" style="width:100%; height:500px;"></div>
         </div>
     </div>
 </section>

@@ -94,7 +94,8 @@ footer .footer-column ul {
 }
 
 footer .footer-column ul li {
-  margin-bottom: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 7px;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -224,6 +225,10 @@ footer .footer-column ul li a:hover::after {
     flex-wrap: wrap;
     gap: 30px;
   }
+  footer .footer-column ul li:active {
+    transform: scale(0.98);
+    transition: transform 0.05s ease;
+  }
 }
 
 @media (max-width: 992px) {
@@ -266,7 +271,7 @@ footer .footer-column ul li a:hover::after {
   }
 
   footer .footer-column h4 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   footer .footer-column ul li {
