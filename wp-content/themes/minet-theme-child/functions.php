@@ -102,9 +102,17 @@ function minet_child_enqueue_globe()
     if (!is_front_page()) return;
 
     wp_enqueue_script(
+        'three',
+        'https://unpkg.com/three@0.150.1/build/three.min.js',
+        array(),
+        null,
+        true
+    );
+
+    wp_enqueue_script(
         'globe-gl',
         'https://unpkg.com/globe.gl',
-        array(),
+        array('three'),
         null,
         true
     );

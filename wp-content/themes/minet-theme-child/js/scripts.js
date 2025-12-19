@@ -91,6 +91,7 @@ function historyAnimation(){
 }
 
 jQuery(document).ready(function(){
+    
     detectScroll();
     jQuery(window).scroll(detectScroll);
     jQuery('.add_inviewport_class').addClass('inViewport');
@@ -151,14 +152,14 @@ jQuery(document).ready(function(){
                         $carousel.slick('unslick');
                     }
                 } else {
-                    if (!$carousel.hasClass('slick-initialized')) {
+                        if (!$carousel.hasClass('slick-initialized')) {
                         $carousel.slick({
                             slidesToShow: 1,
                             slidesToScroll: 1,
                             mobileFirst: true,
                             arrows:false,
                             fade:true,
-                            autoplay:true,
+                            autoplay:false,
                             autoplaySpeed:3000,
                             infinite:true,
                             dots:true
@@ -190,3 +191,9 @@ jQuery.event.special.mousewheel = {
         this.addEventListener("mousewheel", handle, { passive: true });
     }
 };
+// Defensive pause: ensure any .applications_gird slick instances are paused
+// jQuery(window).on('load resize orientationchange', function() {
+//     jQuery('.applications_gird.slick-initialized').each(function(){
+//         try { jQuery(this).slick('slickPause'); } catch(e) { /* ignore */ }
+//     });
+// });
