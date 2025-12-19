@@ -25,7 +25,7 @@
 @media screen and (max-width: 900px) {
   /* lighter overlay on mobile so cards aren't dark by default */
   .hp_applications_gallery .applications_gird li:after {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0);
   }
   .hp_applications_gallery .applications_gird li .flex-item.text-item {
     visibility: visible;
