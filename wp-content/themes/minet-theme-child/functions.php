@@ -6,6 +6,7 @@ function child_enqueue_styles()
     wp_enqueue_style('child-custom', get_stylesheet_directory_uri() . '/custom.css', array('parent-style', 'child-style'));
     wp_enqueue_style('minet-footer', get_stylesheet_directory_uri() . '/css/footer.css', array('parent-style', 'child-style', 'child-custom'));
     wp_enqueue_style('vertical-accordion', get_stylesheet_directory_uri() . '/css/vertical-accordion.css', array('parent-style', 'child-style', 'child-custom'), null);
+    wp_enqueue_style('trusted-by', get_stylesheet_directory_uri() . '/css/trusted-by.css', array('parent-style', 'child-style', 'child-custom'), null);
 }
 add_action('wp_enqueue_scripts', 'child_enqueue_styles', 20);
 
@@ -127,8 +128,8 @@ function minet_child_enqueue_globe()
 
     wp_localize_script('minet-globe', 'minetGlobeData', array(
         'globeImage' => get_stylesheet_directory_uri() . '/assets/img/globe2k.jpg',
-        'cloudsJpg' => get_stylesheet_directory_uri() . '/assets/img/clouds.jpg', // main cloud layer
-        'cloudsPng' => get_stylesheet_directory_uri() . '/assets/img/clouds.png'  // outer haze layer
+        'cloudsJpg' => get_stylesheet_directory_uri() . '/assets/img/clouds.jpg',
+        'cloudsPng' => get_stylesheet_directory_uri() . '/assets/img/clouds.png'
     ));
 }
 add_action('wp_enqueue_scripts', 'minet_child_enqueue_globe');

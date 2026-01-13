@@ -9,6 +9,8 @@
     ];
     get_template_part('template-parts/header/header', 'banner-homepage', $fs); ?>
 
+    <?php get_template_part('template-parts/general/trusted', 'by'); ?>
+
     <?php if (get_field('ia_visibility') == true): ?>
         <?php $iapplications = (object)[
             'title' => get_field('ia_title'),

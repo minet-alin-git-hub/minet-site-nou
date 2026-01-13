@@ -19,7 +19,7 @@ window.addEventListener('load', function() {
                 loader.load(minetGlobeData.cloudsPng, (outerTex) => {
                     console.log('minet-globe: clouds textures loaded');
                     const mainClouds = new THREE.Mesh(
-                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.015, 64, 64),
+                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.005, 64, 64),
                         new THREE.MeshBasicMaterial({
                             map: mainTex,
                             transparent: true,
@@ -33,7 +33,7 @@ window.addEventListener('load', function() {
                     globe.scene().add(mainClouds);
 
                     const outerClouds = new THREE.Mesh(
-                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.015, 64, 64),
+                        new THREE.SphereGeometry(globe.getGlobeRadius() * 1.005, 64, 64),
                         new THREE.MeshBasicMaterial({
                             map: outerTex,
                             transparent: true,
@@ -47,8 +47,8 @@ window.addEventListener('load', function() {
                     globe.scene().add(outerClouds);
 
                     const animateClouds = () => {
-                        mainClouds.rotation.y += 0.0006;
-                        outerClouds.rotation.y += 0.0003;
+                        mainClouds.rotation.y += 0.0004;
+                        outerClouds.rotation.y += 0.0002;
                         requestAnimationFrame(animateClouds);
                     };
                     animateClouds();
@@ -64,7 +64,7 @@ window.addEventListener('load', function() {
     controls.enableZoom = false;
     controls.enableRotate = true;
     controls.autoRotate = true;
-    controls.autoRotateSpeed = 0.3; // lower = slower globe rotation
+    controls.autoRotateSpeed = 0.3;
     controls.update();
 
     function resize() {
